@@ -1,0 +1,20 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic
+    TEAMG_DESIGN.opj
+    teamg_design.dsn
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_FULLSUBTRACTOR
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_SIGNCHANGER8BIT
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_FULLADDER
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_MULTIPLIER
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_SIGNCHANGER4BIT
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_HALFSUBTRACTOR
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_4BIT_SUBTRACTOR
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_AND
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_MULTIBLOCK
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_DESIGN
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_HALFADDER
+//ugsamba/gpeh1g14/D2copy2/CompiledSchematic/TEAMG_DESIGN-PSpiceFiles/TEAMG_RINGOSCILLATOR

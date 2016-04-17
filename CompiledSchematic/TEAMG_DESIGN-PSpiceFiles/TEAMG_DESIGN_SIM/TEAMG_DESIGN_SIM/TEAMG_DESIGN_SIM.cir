@@ -1,0 +1,20 @@
+** Profile: "TEAMG_DESIGN_SIM-TEAMG_DESIGN_SIM"  [ \\ugsamba\gpeh1g14\D2ext\CompiledSchematic\teamg_design-pspicefiles\teamg_design_sim\teamg_design_sim.sim ] 
+
+** Creating circuit file "TEAMG_DESIGN_SIM.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "//ugsamba/gpeh1g14/D2ext/libraries/schematic/d2.lib" 
+* From [PSPICE NETLIST] section of C:\Users\gpeh1g14\AppData\Local\Temp\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TEAMG_DESIGN_SIM.net" 
+
+
+.END

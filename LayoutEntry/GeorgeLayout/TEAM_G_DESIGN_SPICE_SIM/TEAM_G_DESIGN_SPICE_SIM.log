@@ -1,0 +1,56 @@
+T-Spice - Tanner SPICE
+Version 15.23
+Network license from: flexlm.ecs.soton.ac.uk
+Product Release ID: T-Spice Win64 15.23.20120726.02:35:09
+Copyright © 1988-2012 Tanner EDA
+
+	Parsing "H:\D2ext\LayoutEntry\GeorgeLayout\TEAM_G_DESIGN_SPICE_SIM.sp"
+	Including "H:\D2ext\LayoutEntry\libraries\layout\amsc35b4.lib"
+	Including "H:\D2ext\LayoutEntry\GeorgeLayout\TEAMG_DESIGN.spc"
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : Voltage source Vgnd is connected to itself, and will be ignored
+
+	Opening simulation database "H:\D2ext\LayoutEntry\GeorgeLayout\TEAM_G_DESIGN_SPICE_SIM.tsim"
+Warning : Node 13 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A3 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A4 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A5 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A6 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A7 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A8 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A9 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A10 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A11 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A1 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A2 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A0 is only attached to FET gate terminals; voltage is undefined
+
+General options:
+        threads = 8
+
+Output options:
+         maxmsg = 0
+
+ Device and node counts:
+              MOSFETs -    1336
+    MOSFET geometries -      54
+      Voltage sources -      12
+          Subcircuits -     300
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -     691
+       Boundary nodes -      12
+          Total nodes -     703
+*** 14 WARNING MESSAGES GENERATED DURING SETUP
+
+
+
+Parsing                      0.08 seconds
+Setup                        0.19 seconds
+DC operating point           0.53 seconds
+Transient Analysis           0.61 seconds
+Overhead                     0.58 seconds
+-----------------------------------------
+Total                        1.99 seconds
+
+Simulation completed	with  14 Warnings

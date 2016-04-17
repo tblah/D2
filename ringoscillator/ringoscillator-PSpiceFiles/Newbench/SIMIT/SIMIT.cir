@@ -1,0 +1,20 @@
+** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+** Creating circuit file "SIMIT.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "H:/D2ext/libraries/schematic/d2.lib" 
+* From [PSPICE NETLIST] section of C:\Users\gpeh1g14\AppData\Local\Temp\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Newbench.net" 
+
+
+.END

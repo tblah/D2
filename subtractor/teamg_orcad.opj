@@ -1,0 +1,164 @@
+(ExpressProject "teamg_orcad"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\teamg_orcad.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File
+       ".\teamg_orcad-pspicefiles\teamg_4-bit_subtractor_sim\teamg_4-bit_subtractor_sim.net"
+      (Type "Report"))
+    (File ".\teamg_orcad-pspicefiles\testbench\testbench.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\teamg_orcad-pspicefiles\teamg_4-bit_subtractor_sim\subtractor_simulation.sim"
+        (DisplayName "TEAMG_4-BIT_SUBTRACTOR_SIM-SUBTRACTOR_SIMULATION")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\teamg_orcad-pspicefiles\teamg_4-bit_subtractor_sim\simrun.sim"
+        (DisplayName "TEAMG_4-BIT_SUBTRACTOR_SIM-simrun")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\teamg_orcad-pspicefiles\testbench\testsim.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\teamg_orcad-pspicefiles\testbench\testsim.sim"
+        (DisplayName "TESTBENCH-testsim")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\libraries\schematic\d2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\libraries\schematic\d2.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (STIM8
+      (FullPartName "STIM8.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (portout
+      (LibraryName "H:\LABS\D2-1\D2_H.OLB")
+      (DeviceIndex "0"))
+    (portin
+      (LibraryName "H:\LABS\D2-1\D2_H.OLB")
+      (DeviceIndex "0"))
+    (XOR21_H
+      (FullPartName "XOR21_H.Normal")
+      (LibraryName "H:\LABS\D2-1\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NAND21_H
+      (FullPartName "NAND21_H.Normal")
+      (LibraryName "H:\LABS\D2-1\D2_H.OLB")
+      (DeviceIndex "0"))
+    (INV1_H
+      (FullPartName "INV1_H.Normal")
+      (LibraryName "H:\LABS\D2-1\D2_H.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn" "TESTBENCH")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn"
+         "TEAMG_4-BIT_SUBTRACTOR")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn"
+         "TEAMG_4-BIT_SUBTRACTOR_SIM")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn"
+         "TEAMG_FULLSUBTRACTOR")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn"
+         "TEAMG_HALFSUBTRACTOR")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad.dsn"
+         "TEAMG_4-BIT_SUBTRACTOR_SIM" "TEAMG_4BIT_SUBTRACTOR_SIM"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 379 0 651"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 234 2409 234 924")
+        (Scroll "0 319")
+        (Zoom "270")
+        (Occurrence "/"))
+      (Path "\\UGSAMBA\TDE1G14\D2\SUBTRACTOR\TEAMG_ORCAD.DSN")
+      (Schematic "TESTBENCH")
+      (Page "TB"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 2279 0 496")
+        (Scroll "-145 100")
+        (Zoom "200")
+        (Occurrence "/TEAMG_4BIT_SUBTRACTOR_SIM"))
+      (Path "\\UGSAMBA\TDE1G14\D2\SUBTRACTOR\TEAMG_ORCAD.DSN")
+      (Schematic "TEAMG_4-BIT_SUBTRACTOR")
+      (Page "TEAMG_4BIT_SUBTRACTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 2331 52 548")
+        (Scroll "-145 60")
+        (Zoom "200")
+        (Occurrence "/TEAMG_4BIT_SUBTRACTOR_SIM/FULL_SUBTRACTOR2"))
+      (Path "\\UGSAMBA\TDE1G14\D2\SUBTRACTOR\TEAMG_ORCAD.DSN")
+      (Schematic "TEAMG_FULLSUBTRACTOR")
+      (Page "TEAMG_FULSUBTRACTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 2357 78 574")
+        (Scroll "-145 162")
+        (Zoom "200")
+        (Occurrence
+           "/TEAMG_4BIT_SUBTRACTOR_SIM/FULL_SUBTRACTOR2/TEAMG_HALFSUBTRACTOR"))
+      (Path "\\UGSAMBA\TDE1G14\D2\SUBTRACTOR\TEAMG_ORCAD.DSN")
+      (Schematic "TEAMG_HALFSUBTRACTOR")
+      (Page "HALFSUBTRACTOR"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 2034 156 842"))
+      (Path
+         "\\ugsamba\tde1g14\D2\subtractor\teamg_orcad-PSpiceFiles\TEAMG_4-BIT_SUBTRACTOR_SIM\TEAMG_4-BIT_SUBTRACTOR_SIM.net")
+      (Scroll "0")
+      (Select "1 1 177 1")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\pspice")
+  (MPSSessionName "tde1g14"))

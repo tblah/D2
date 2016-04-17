@@ -1,0 +1,728 @@
+
+
+
+* Tue Aug 12 17:47:55 MEST 2003
+* Fraunhofer IIS, Erlangen, Germany, 2003
+* TSpice Model Library of a corecell-subset in "ams 0.35 um CMOS C35"
+
+.MODEL MODN NMOS LEVEL=7 
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : MOS BSIM3v3
+* process   : C35
+* revision  : 2; 
+* extracted : B10866 ; 2002-12; ese(487)
+* doc#      : ENG-182 REV_2
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+*
+*        *** Flags ***
++MOBMOD =1.000e+00 CAPMOD =2.000e+00 
++NOIMOD =3.000e+00 
+*        *** Threshold voltage related model parameters ***
++K1     =5.0296e-01 
++K2     =3.3985e-02 K3     =-1.136e+00 K3B    =-4.399e-01 
++NCH    =2.611e+17 VTH0   =4.979e-01 
++VOFF   =-8.925e-02 DVT0   =5.000e+01 DVT1   =1.039e+00 
++DVT2   =-8.375e-03 KETA   =2.032e-02 
++PSCBE1 =3.518e+08 PSCBE2 =7.491e-05 
++DVT0W  =1.089e-01 DVT1W  =6.671e+04 DVT2W  =-1.352e-02 
+*        *** Mobility related model parameters ***
++UA     =4.705e-12 UB     =2.137e-18 UC     =1.000e-20 
++U0     =4.758e+02 
+*        *** Subthreshold related parameters ***
++DSUB   =5.000e-01 ETA0   =1.415e-02 ETAB   =-1.221e-01 
++NFACTOR=4.136e-01 
+*        *** Saturation related parameters ***
++EM     =4.100e+07 PCLM   =6.948e-01 
++PDIBLC1=3.571e-01 PDIBLC2=2.065e-03 DROUT  =5.000e-01 
++A0     =2.541e+00 A1     =0.000e+00 A2     =1.000e+00 
++PVAG   =0.000e+00 VSAT   =1.338e+05 AGS    =2.408e-01 
++B0     =4.301e-09 B1     =0.000e+00 DELTA  =1.442e-02 
++PDIBLCB=3.222e-01 
+*        *** Geometry modulation related parameters ***
++W0     =2.673e-07 DLC    =3.0000e-08 
++DWB    =0.000e+00 DWG    =0.000e+00 
++LL     =0.000e+00 LW     =0.000e+00 LWL    =0.000e+00 
++LLN    =1.000e+00 LWN    =1.000e+00 WL     =0.000e+00 
++WW     =-1.297e-14 WWL    =-9.411e-21 WLN    =1.000e+00 
++WWN    =1.000e+00 
+*        *** Temperature effect parameters ***
++AT     =3.300e+04 UTE    =-1.800e+00 
++KT1    =-3.302e-01 KT2    =2.200e-02 KT1L   =0.000e+00 
++UA1    =0.000e+00 UB1    =0.000e+00 UC1    =0.000e+00 
++PRT    =0.000e+00 
+*        *** Overlap capacitance related and dynamic model parameters   ***
++CGDO   =1.300e-10 CGSO   =1.200e-10 CGBO   =1.100e-10 
++CGDL   =1.310e-10 CGSL   =1.310e-10 CKAPPA =6.000e-01 
++CF     =0.000e+00 ELM    =5.000e+00 
++XPART  =1.000e+00 CLC    =1.000e-15 CLE    =6.000e-01 
+*        *** Parasitic resistance and capacitance related model parameters ***
++RDSW   =3.449e+02 
++CDSC   =0.000e+00 CDSCB  =1.500e-03 CDSCD  =1.000e-03 
++PRWB   =-2.416e-01 PRWG   =0.000e+00 CIT    =4.441e-04 
+*        *** Process and parameters extraction related model parameters ***
++TOX    =7.575e-09 NGATE  =0.000e+00 
++NLX    =1.888e-07 
+*        *** Substrate current related model parameters ***
++ALPHA0 =0.000e+00 BETA0  =3.000e+01 
+*        *** Noise effect related model parameters ***
++AF     =1.3600e+00 KF     =5.1e-27 EF     =1.000e+00 
++NOIA   =1.73e+19 NOIB   =7.000e+04 NOIC   =-5.64e-13 
+*        *** Common extrinsic model parameters ***
++LINT   =-5.005e-08 WINT   =9.4030e-08 XJ     =3.000e-07 
++RSH    =7.000e+01 JS     =1.000e-05 
++CJ     =9.400e-04 CJSW   =2.500e-10 
++CBD    =0.000e+00 CBS    =0.000e+00 IS     =0.000e+00 
++MJ     =3.400e-01 N      =1.000e+00 MJSW   =2.300e-01 
++PB     =6.900e-01 TT     =0.000e+00 
++PBSW   =6.900e-01 
+* ----------------------------------------------------------------------
+.SUBCKT ND A C PARAMS: AREA=1e-12 PERI=4e-6
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : DIODE
+* process   : C35
+* revision  : 2; 
+* extracted : B10866 ; 2002-12; ese(487)
+* doc#      : ENG-182 REV_2
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+* TERMINALS: A=anode=P-region C=cathode=N-region
+* VARIABLES: M (mulitiplier), AREA [m^2], PERI [m].
+* NOTE: The role of a protection DIODE is to conduct ESD current to VDD 
+* (or from VSS). This forward bias is NOT modelled, only leakage current 
+* and capacitance during normal operation. Any inductive load etc that 
+* will give forward bias, must be limited by other components to within 
+* Operating Conditions, otherwise parasitic bipolar action can occur.
+*
+D1 A C NDINSUBA {AREA}
+D2 A C NDINSUBS {PERI}
+.ENDS ND
+*
+.MODEL NDINSUBA D 
++IS     =1.000e-05 N      =1.000e+00 
++CJO    =9.400e-04 M      =3.400e-01 VJ     =6.900e-01 
++TT     =0.000e+00 FC     =0.500e+00 
++EG     =1.110e+00 XTI    =3.000e+00 
++AF     =1.000e+00 KF     =0.000e+00
+.MODEL NDINSUBS D
++IS     =0.000e+00 N      =1.000e+00 
++CJO    =2.500e-10 M      =2.300e-01 VJ     =6.900e-01 
++TT     =0.000e+00 FC     =0.500e+00  
++EG     =1.110e+00 XTI    =3.000e+00 
++AF     =1.000e+00 KF     =0.000e+00
+* ----------------------------------------------------------------------
+.MODEL MODNM NMOS LEVEL=7 
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : MOS BSIM3v3
+* process   : C35
+* revision  : 2; 
+* extracted : B11004 ; 2002-12; ese(487)
+* doc#      : ENG-182 REV_2
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+*
+*        *** Flags ***
++MOBMOD =1.000e+00 CAPMOD =2.000e+00 
++NOIMOD =3.000e+00 
+*        *** Threshold voltage related model parameters ***
++K1     =7.4922e-01 
++K2     =1.1026e-01 K3     =-3.776e+00 K3B    =-7.691e-02 
++NCH    =2.265e+17 VTH0   =7.525e-01 
++VOFF   =-8.295e-02 DVT0   =3.000e+01 DVT1   =1.528e+00 
++DVT2   =2.529e-02 KETA   =3.585e-02 
++PSCBE1 =4.309e+08 PSCBE2 =1.000e-10 
++DVT0W  =-5.000e+00 DVT1W  =2.578e+06 DVT2W  =5.105e-02 
+*        *** Mobility related model parameters ***
++UA     =4.708e-10 UB     =1.470e-18 UC     =-4.342e-11 
++U0     =5.643e+02 
+*        *** Subthreshold related parameters ***
++DSUB   =5.000e-01 ETA0   =3.795e-02 ETAB   =-7.653e-04 
++NFACTOR=8.573e-01 
+*        *** Saturation related parameters ***
++EM     =4.100e+07 PCLM   =2.125e-01 
++PDIBLC1=1.000e-04 PDIBLC2=5.458e-04 DROUT  =5.000e-01 
++A0     =2.064e+00 A1     =0.000e+00 A2     =1.000e+00 
++PVAG   =0.000e+00 VSAT   =1.078e+05 AGS    =1.079e-01 
++B0     =-1.493e-07 B1     =0.000e+00 DELTA  =1.000e-02 
++PDIBLCB=5.186e-01 
+*        *** Geometry modulation related parameters ***
++W0     =1.617e-07 DLC    =1.0000e-07 
++DWB    =0.000e+00 DWG    =0.000e+00 
++LL     =0.000e+00 LW     =0.000e+00 LWL    =0.000e+00 
++LLN    =1.000e+00 LWN    =1.000e+00 WL     =0.000e+00 
++WW     =-5.117e-14 WWL    =-5.704e-21 WLN    =1.000e+00 
++WWN    =1.000e+00 
+*        *** Temperature effect parameters ***
++AT     =3.300e+04 UTE    =-1.760e+00 
++KT1    =-4.502e-01 KT2    =2.200e-02 KT1L   =0.000e+00 
++UA1    =0.000e+00 UB1    =0.000e+00 UC1    =0.000e+00 
++PRT    =0.000e+00 
+*        *** Overlap capacitance related and dynamic model parameters   ***
++CGDO   =1.080e-10 CGSO   =1.080e-10 CGBO   =1.100e-10 
++CGDL   =2.270e-10 CGSL   =2.270e-10 CKAPPA =6.000e-01 
++CF     =0.000e+00 ELM    =5.000e+00 
++XPART  =1.000e+00 CLC    =1.000e-15 CLE    =6.000e-01 
+*        *** Parasitic resistance and capacitance related model parameters ***
++RDSW   =1.390e+03 
++CDSC   =0.000e+00 CDSCB  =-1.500e-03 CDSCD  =0.000e+00 
++PRWB   =-6.740e-02 PRWG   =0.000e+00 CIT    =0.000e+00 
+*        *** Process and parameters extraction related model parameters ***
++TOX    =1.516e-08 NGATE  =0.000e+00 
++NLX    =2.283e-07 
+*        *** Substrate current related model parameters ***
++ALPHA0 =0.000e+00 BETA0  =3.000e+01 
+*        *** Noise effect related model parameters ***
++AF     =1.270e+00 KF     =3.50e-27 EF     =1.000e+00 
++NOIA   =6.64e+19 NOIB   =1.090e+05 NOIC   =-1.4e-13 
+*        *** Common extrinsic model parameters ***
++LINT   =1.2250e-07 WINT   =1.6230e-07 XJ     =3.000e-07 
++RSH    =7.900e+01 JS     =1.000e-05 
++CJ     =9.400e-04 CJSW   =2.500e-10 
++CBD    =0.000e+00 CBS    =0.000e+00 IS     =0.000e+00 
++MJ     =3.400e-01 N      =1.000e+00 MJSW   =2.300e-01 
++PB     =6.900e-01 TT     =0.000e+00 
++PBSW   =6.900e-01 
+* ----------------------------------------------------------------------
+.MODEL MODPM PMOS LEVEL=7 
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : MOS BSIM3v3
+* process   : C35
+* revision  : 2; 
+* extracted : C64685 ; 2002-12; ese(487)
+* doc#      : ENG-182 REV_2
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+*
+*        *** Flags ***
++MOBMOD =1.000e+00 CAPMOD =2.000e+00 
++NOIMOD =3.000e+00 
+*        *** Threshold voltage related model parameters ***
++K1     =5.4907e-01 
++K2     =4.6395e-02 K3     =8.317e+00 K3B    =-1.479e+00 
++NCH    =8.479e+16 VTH0   =-1.011e+00 
++VOFF   =-1.148e-01 DVT0   =5.399e-01 DVT1   =4.112e-01 
++DVT2   =-9.479e-02 KETA   =3.010e-02 
++PSCBE1 =5.000e+09 PSCBE2 =1.000e-10 
++DVT0W  =8.099e-01 DVT1W  =1.480e+05 DVT2W  =4.404e-02 
+*        *** Mobility related model parameters ***
++UA     =1.800e-12 UB     =2.218e-18 UC     =-7.278e-11 
++U0     =1.373e+02 
+*        *** Subthreshold related parameters ***
++DSUB   =5.000e-01 ETA0   =9.736e-02 ETAB   =-2.948e-02 
++NFACTOR=7.046e-01 
+*        *** Saturation related parameters ***
++EM     =4.100e+07 PCLM   =4.395e+00 
++PDIBLC1=2.037e-02 PDIBLC2=1.000e-20 DROUT  =5.000e-01 
++A0     =1.386e+00 A1     =0.000e+00 A2     =1.000e+00 
++PVAG   =0.000e+00 VSAT   =1.436e+05 AGS    =1.364e-01 
++B0     =1.991e-08 B1     =0.000e+00 DELTA  =1.000e-02 
++PDIBLCB=1.000e+00 
+*        *** Geometry modulation related parameters ***
++W0     =1.000e-10 DLC    =2.5000e-08 
++DWB    =0.000e+00 DWG    =0.000e+00 
++LL     =0.000e+00 LW     =0.000e+00 LWL    =0.000e+00 
++LLN    =1.000e+00 LWN    =1.000e+00 WL     =0.000e+00 
++WW     =-9.750e-16 WWL    =-1.787e-21 WLN    =1.000e+00 
++WWN    =1.040e+00 
+*        *** Temperature effect parameters ***
++AT     =3.300e+04 UTE    =-1.300e+00 
++KT1    =-6.003e-01 KT2    =2.200e-02 KT1L   =0.000e+00 
++UA1    =0.000e+00 UB1    =0.000e+00 UC1    =0.000e+00 
++PRT    =0.000e+00 
+*        *** Overlap capacitance related and dynamic model parameters   ***
++CGDO   =9.100e-11 CGSO   =9.100e-11 CGBO   =1.100e-10 
++CGDL   =0.600e-10 CGSL   =0.600e-10 CKAPPA =6.000e-01 
++CF     =0.000e+00 ELM    =5.000e+00 
++XPART  =1.000e+00 CLC    =1.000e-15 CLE    =6.000e-01 
+*        *** Parasitic resistance and capacitance related model parameters ***
++RDSW   =1.623e+03 
++CDSC   =1.214e-03 CDSCB  =2.945e-04 CDSCD  =0.000e+00 
++PRWB   =-4.521e-01 PRWG   =0.000e+00 CIT    =5.259e-05 
+*        *** Process and parameters extraction related model parameters ***
++TOX    =1.450e-08 NGATE  =0.000e+00 
++NLX    =2.231e-07 
+*        *** Substrate current related model parameters ***
++ALPHA0 =0.000e+00 BETA0  =3.000e+01 
+*        *** Noise effect related model parameters ***
++AF     =1.5e+00 KF     =9.4e-27 EF     =1.000e+00 
++NOIA   =1.09e+18 NOIB   =6.01e+03 NOIC   =1.19e-12 
+*        *** Common extrinsic model parameters ***
++LINT   =-8.504e-08 WINT   =6.2030e-08 XJ     =3.000e-07 
++RSH    =1.300e+02 JS     =9.000e-05 
++CJ     =1.360e-03 CJSW   =3.200e-10 
++CBD    =0.000e+00 CBS    =0.000e+00 IS     =0.000e+00 
++MJ     =5.600e-01 N      =1.000e+00 MJSW   =4.300e-01 
++PB     =1.020e+00 TT     =0.000e+00 
++PBSW   =1.020e+00 
+* ----------------------------------------------------------------------
+.MODEL MODP PMOS LEVEL=7 
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : MOS BSIM3v3
+* process   : C35
+* revision  : 2; 
+* extracted : C64685 ; 2002-12; ese(487)
+* doc#      : ENG-182 REV_2
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+*
+*        *** Flags ***
++MOBMOD =1.000e+00 CAPMOD =2.000e+00 
++NOIMOD =3.000e+00 
+*        *** Threshold voltage related model parameters ***
++K1     =5.9959e-01 
++K2     =-6.038e-02 K3     =1.103e+01 K3B    =-7.580e-01 
++NCH    =9.240e+16 VTH0   =-6.915e-01 
++VOFF   =-1.170e-01 DVT0   =1.650e+00 DVT1   =3.868e-01 
++DVT2   =1.659e-02 KETA   =-1.440e-02 
++PSCBE1 =5.000e+09 PSCBE2 =1.000e-04 
++DVT0W  =1.879e-01 DVT1W  =7.335e+04 DVT2W  =-6.312e-03 
+*        *** Mobility related model parameters ***
++UA     =5.394e-10 UB     =1.053e-18 UC     =1.000e-20 
++U0     =1.482e+02 
+*        *** Subthreshold related parameters ***
++DSUB   =5.000e-01 ETA0   =2.480e-01 ETAB   =-3.917e-03 
++NFACTOR=1.214e+00 
+*        *** Saturation related parameters ***
++EM     =4.100e+07 PCLM   =3.184e+00 
++PDIBLC1=1.000e-04 PDIBLC2=1.000e-20 DROUT  =5.000e-01 
++A0     =5.850e-01 A1     =0.000e+00 A2     =1.000e+00 
++PVAG   =0.000e+00 VSAT   =1.158e+05 AGS    =2.468e-01 
++B0     =8.832e-08 B1     =0.000e+00 DELTA  =1.000e-02 
++PDIBLCB=1.000e+00 
+*        *** Geometry modulation related parameters ***
++W0     =1.000e-10 DLC    =2.4500e-08 
++DWB    =0.000e+00 DWG    =0.000e+00 
++LL     =0.000e+00 LW     =0.000e+00 LWL    =0.000e+00 
++LLN    =1.000e+00 LWN    =1.000e+00 WL     =0.000e+00 
++WW     =1.894e-16 WWL    =-1.981e-21 WLN    =1.000e+00 
++WWN    =1.040e+00 
+*        *** Temperature effect parameters ***
++AT     =3.300e+04 UTE    =-1.300e+00 
++KT1    =-5.403e-01 KT2    =2.200e-02 KT1L   =0.000e+00 
++UA1    =0.000e+00 UB1    =0.000e+00 UC1    =0.000e+00 
++PRT    =0.000e+00 
+*        *** Overlap capacitance related and dynamic model parameters   ***
++CGDO   =8.600e-11 CGSO   =8.600e-11 CGBO   =1.100e-10 
++CGDL   =1.080e-10 CGSL   =1.080e-10 CKAPPA =6.000e-01 
++CF     =0.000e+00 ELM    =5.000e+00 
++XPART  =1.000e+00 CLC    =1.000e-15 CLE    =6.000e-01 
+*        *** Parasitic resistance and capacitance related model parameters ***
++RDSW   =1.033e+03 
++CDSC   =2.589e-03 CDSCB  =2.943e-04 CDSCD  =4.370e-04 
++PRWB   =-9.731e-02 PRWG   =1.477e-01 CIT    =0.000e+00 
+*        *** Process and parameters extraction related model parameters ***
++TOX    =7.754e-09 NGATE  =0.000e+00 
++NLX    =1.770e-07 
+*        *** Substrate current related model parameters ***
++ALPHA0 =0.000e+00 BETA0  =3.000e+01 
+*        *** Noise effect related model parameters ***
++AF     =1.48e+00 KF     =8.5e-27 EF     =1.000e+00 
++NOIA   =1.52e+18 NOIB   =7.75e+03 NOIC   =5.0e-13 
+*        *** Common extrinsic model parameters ***
++LINT   =-7.130e-08 WINT   =3.4490e-08 XJ     =3.000e-07 
++RSH    =1.290e+02 JS     =9.000e-05 
++CJ     =1.360e-03 CJSW   =3.200e-10 
++CBD    =0.000e+00 CBS    =0.000e+00 IS     =0.000e+00 
++MJ     =5.600e-01 N      =1.000e+00 MJSW   =4.300e-01 
++PB     =1.020e+00 TT     =0.000e+00 
++PBSW   =1.020e+00 
+* ----------------------------------------------------------------------
+.SUBCKT PD A C PARAMS: AREA=1e-12 PERI=4e-6
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : DIODE
+* process   : C35
+* revision  : 2; 
+* extracted : C64685 ; 2002-12; ese(487)
+* doc#      : ENG-182 REV_2
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+* TERMINALS: A=anode=P-region C=cathode=N-region
+* VARIABLES: M (mulitiplier), AREA [m^2], PERI [m].
+* NOTE: The role of a protection DIODE is to conduct ESD current to VDD 
+* (or from VSS). This forward bias is NOT modelled, only leakage current 
+* and capacitance during normal operation. Any inductive load etc that 
+* will give forward bias, must be limited by other components to within 
+* Operating Conditions, otherwise parasitic bipolar action can occur.
+*
+D1 A C PDINSUBA {AREA}
+D2 A C PDINSUBS {PERI}
+.ENDS PD
+*
+.MODEL PDINSUBA D 
++IS     =9.000e-05 N      =1.000e+00 
++CJO    =1.360e-03 M      =5.600e-01 VJ     =1.020e+00 
++TT     =0.000e+00 FC     =0.500e+00 
++EG     =1.110e+00 XTI    =3.000e+00 
++AF     =1.000e+00 KF     =0.000e+00
+.MODEL PDINSUBS D
++IS     =0.000e+00 N      =1.000e+00 
++CJO    =3.200e-10 M      =4.300e-01 VJ     =1.020e+00 
++TT     =0.000e+00 FC     =0.500e+00  
++EG     =1.110e+00 XTI    =3.000e+00 
++AF     =1.000e+00 KF     =0.000e+00
+* ----------------------------------------------------------------------
+.SUBCKT MODNH D G S B PARAMS: W=1e-6 L=1e-6 AD=0 AS=0 PD=0 PS=0 NRD=0 NRS=0
+* VARIABLES: W,L,AD,AS,PD,PS,NRD,NRS = standard MOSFET parameters
+*
+M1 D1 G S B MODNHINSUB W={W} L={L} AD={AD} AS={AS} PD={PD} PS={PS} NRD={NRD} NRS={NRS}
+RD D1 D {1.328e+03*4.000e-06/(W)} TC=6.200e-03 
+.ENDS MODNH
+.MODEL MODNHINSUB NMOS LEVEL=7 
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : MOS BSIM3v3
+* process   : C35
+* revision  : ; 
+* extracted : C35 B11004.L2; 2002-11; hhl(5481)
+* doc#      : REV_2.0
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+*
+*        *** Flags ***
++MOBMOD =1.000e+00 CAPMOD =2.000e+00 
++NOIMOD =1.000e+00 
+*        *** Threshold voltage related model parameters ***
++K1     =6.2697e-01 
++K2     =-4.966e-03 K3     =-2.240e+00 K3B    =6.954e-01 
++NCH    =2.236e+17 VTH0   =4.460e-01 
++VOFF   =-5.090e-02 DVT0   =4.985e+01 DVT1   =1.296e+00 
++DVT2   =1.311e-02 KETA   =-4.553e-02 
++PSCBE1 =1.000e+10 PSCBE2 =1.024e-05 
++DVT0W  =0.000e+00 DVT1W  =0.000e+00 DVT2W  =0.000e+00 
+*        *** Mobility related model parameters ***
++UA     =1.000e-30 UB     =1.949e-18 UC     =1.217e-10 
++U0     =3.427e+02 
+*        *** Subthreshold related parameters ***
++DSUB   =5.000e-01 ETA0   =3.075e-02 ETAB   =-5.261e-02 
++NFACTOR=2.034e-01 
+*        *** Saturation related parameters ***
++EM     =4.100e+07 PCLM   =2.940e-01 
++PDIBLC1=3.090e-02 PDIBLC2=6.375e-04 DROUT  =5.000e-01 
++A0     =1.893e-01 A1     =0.000e+00 A2     =1.000e+00 
++PVAG   =0.000e+00 VSAT   =2.402e+05 AGS    =1.245e-01 
++B0     =6.790e-08 B1     =0.000e+00 DELTA  =1.729e-02 
++PDIBLCB=2.067e-01 
+*        *** Geometry modulation related parameters ***
++W0     =1.145e-07 
++DWB    =0.000e+00 DWG    =0.000e+00 
++LL     =0.000e+00 LW     =0.000e+00 LWL    =0.000e+00 
++LLN    =1.000e+00 LWN    =1.000e+00 WL     =0.000e+00 
++WW     =0.000e+00 WWL    =0.000e+00 WLN    =1.000e+00 
++WWN    =1.000e+00 
+*        *** Temperature effect parameters ***
++TNOM   =2.700e+01 AT     =3.300e+04 UTE    =-1.800e+00 
++KT1    =-3.302e-01 KT2    =2.200e-02 KT1L   =0.000e+00 
++UA1    =0.000e+00 UB1    =0.000e+00 UC1    =0.000e+00 
++PRT    =0.000e+00 
+*        *** Overlap capacitance related and dynamic model parameters   ***
++CGDO   =1.200e-10 CGSO   =1.200e-10 CGBO   =1.100e-10 
++CGDL   =0.000e+00 CGSL   =0.000e+00 CKAPPA =6.000e-01 
++CF     =0.000e+00 ELM    =5.000e+00 
++XPART  =1.000e+00 CLC    =1.000e-15 CLE    =6.000e-01 
+*        *** Parasitic resistance and capacitance related model parameters ***
++RDSW   =1.092e+03 
++CDSC   =7.944e-03 CDSCB  =0.000e+00 CDSCD  =8.448e-05 
++PRWB   =0.000e+00 PRWG   =0.000e+00 CIT    =1.000e-03 
+*        *** Process and parameters extraction related model parameters ***
++TOX    =7.700e-09 NGATE  =0.000e+00 
++NLX    =1.132e-07 
+*        *** Substrate current related model parameters ***
++ALPHA0 =0.000e+00 BETA0  =3.000e+01 
+*        *** Noise effect related model parameters ***
++AF     =1.400e+00 KF     =2.810e-27 EF     =1.000e+00 
++NOIA   =1.000e+20 NOIB   =5.000e+04 NOIC   =-1.400e-12 
+*        *** Common extrinsic model parameters ***
++LINT   =6.0000e-07 WINT   =2.6050e-08 XJ     =3.000e-07 
++RSH    =8.200e+01 JS     =6.000e-05 
++CJ     =8.000e-05 CJSW   =5.100e-10 
++CBD    =0.000e+00 CBS    =0.000e+00 IS     =0.000e+00 
++MJ     =3.900e-01 N      =1.000e+00 MJSW   =2.700e-01 
++PB     =5.300e-01 TT     =0.000e+00 
++PBSW   =6.900e-01 
+* ----------------------------------------------------------------------
+.SUBCKT MODNMH D G S B PARAMS: W=1e-6 L=1e-6 AD=0 AS=0 PD=0 PS=0 NRD=0 NRS=0
+* VARIABLES: W,L,AD,AS,PD,PS,NRD,NRS = standard MOSFET parameters
+*
+M1 D1 G S B MODNMHINSUB W={W} L={L} AD={AD} AS={AS} PD={PD} PS={PS} NRD={NRD} NRS={NRS}
+RD D1 D {1.547e+03*4.000e-06/(W)} TC=6.200e-03 
+.ENDS MODNMH
+.MODEL MODNMHINSUB NMOS LEVEL=7 
+* ----------------------------------------------------------------------
+************************* SIMULATION PARAMETERS ************************
+* ----------------------------------------------------------------------
+* format    : PSPICE
+* model     : MOS BSIM3v3
+* process   : C35
+* revision  : ; 
+* extracted : C35 B11004.L2; 2002-11; hhl(5481)
+* doc#      : REV_2.0
+* ----------------------------------------------------------------------
+*                        TYPICAL MEAN CONDITION
+* ----------------------------------------------------------------------
+*
+*        *** Flags ***
++MOBMOD =1.000e+00 CAPMOD =2.000e+00 
++NOIMOD =1.000e+00 
+*        *** Threshold voltage related model parameters ***
++K1     =9.5409e-01 
++K2     =4.9101e-02 K3     =-2.439e+00 K3B    =4.077e-01 
++NCH    =2.092e+17 VTH0   =6.449e-01 
++VOFF   =-4.948e-02 DVT0   =4.985e+01 DVT1   =1.683e+00 
++DVT2   =4.126e-02 KETA   =-7.397e-02 
++PSCBE1 =4.000e+10 PSCBE2 =1.000e-10 
++DVT0W  =0.000e+00 DVT1W  =0.000e+00 DVT2W  =0.000e+00 
+*        *** Mobility related model parameters ***
++UA     =1.000e-12 UB     =3.768e-19 UC     =6.391e-12 
++U0     =4.394e+02 
+*        *** Subthreshold related parameters ***
++DSUB   =5.000e-01 ETA0   =1.616e-03 ETAB   =-1.373e-02 
++NFACTOR=3.455e-01 
+*        *** Saturation related parameters ***
++EM     =4.100e+07 PCLM   =1.055e-01 
++PDIBLC1=1.000e-10 PDIBLC2=1.000e-10 DROUT  =5.000e-01 
++A0     =2.190e-01 A1     =0.000e+00 A2     =1.000e+00 
++PVAG   =0.000e+00 VSAT   =5.129e+04 AGS    =9.448e-02 
++B0     =-3.629e-08 B1     =0.000e+00 DELTA  =3.370e-03 
++PDIBLCB=3.872e-01 
+*        *** Geometry modulation related parameters ***
++W0     =6.289e-08 
++DWB    =0.000e+00 DWG    =0.000e+00 
++LL     =0.000e+00 LW     =0.000e+00 LWL    =0.000e+00 
++LLN    =1.000e+00 LWN    =1.000e+00 WL     =0.000e+00 
++WW     =0.000e+00 WWL    =0.000e+00 WLN    =1.000e+00 
++WWN    =1.000e+00 
+*        *** Temperature effect parameters ***
++TNOM   =2.700e+01 AT     =3.300e+04 UTE    =-1.760e+00 
++KT1    =-4.502e-01 KT2    =2.200e-02 KT1L   =0.000e+00 
++UA1    =0.000e+00 UB1    =0.000e+00 UC1    =0.000e+00 
++PRT    =0.000e+00 
+*        *** Overlap capacitance related and dynamic model parameters   ***
++CGDO   =1.080e-10 CGSO   =1.080e-10 CGBO   =1.100e-10 
++CGDL   =0.000e+00 CGSL   =0.000e+00 CKAPPA =6.000e-01 
++CF     =0.000e+00 ELM    =5.000e+00 
++XPART  =1.000e+00 CLC    =1.000e-15 CLE    =6.000e-01 
+*        *** Parasitic resistance and capacitance related model parameters ***
++RDSW   =5.304e+02 
++CDSC   =1.000e-02 CDSCB  =0.000e+00 CDSCD  =8.448e-05 
++PRWB   =0.000e+00 PRWG   =0.000e+00 CIT    =8.122e-04 
+*        *** Process and parameters extraction related model parameters ***
++TOX    =1.514e-08 NGATE  =0.000e+00 
++NLX    =1.593e-07 
+*        *** Substrate current related model parameters ***
++ALPHA0 =0.000e+00 BETA0  =3.000e+01 
+*        *** Noise effect related model parameters ***
++AF     =1.400e+00 KF     =2.810e-27 EF     =1.000e+00 
++NOIA   =1.000e+20 NOIB   =5.000e+04 NOIC   =-1.400e-12 
+*        *** Common extrinsic model parameters ***
++LINT   =6.1417e-07 WINT   =4.9380e-08 XJ     =3.000e-07 
++RSH    =7.946e+01 JS     =6.000e-05 
++CJ     =8.000e-05 CJSW   =5.100e-10 
++CBD    =0.000e+00 CBS    =0.000e+00 IS     =0.000e+00 
++MJ     =3.900e-01 N      =1.000e+00 MJSW   =2.700e-01 
++PB     =5.300e-01 TT     =0.000e+00 
++PBSW   =6.900e-01 
+* ----------------------------------------------------------------------
+* Owner: austriamicrosystems
+* HIT-Kit: Digital
+
+
+
+
+.SUBCKT DFC1_H C D GND_ Q QN RN VDD
+
+M1 GND_ C 1 GND_ MODN l=3.5e-007 w=5e-007 ad=5.375e-013 as=5.9e-013 pd=2.47222e-006 ps=3.2e-006  ; (1.2 2.25 1.55 2.75)
+M2 2 1 GND_ GND_ MODN l=3.5e-007 w=4e-007 ad=5.7e-013 as=4.3e-013 pd=3.2e-006 ps=1.97778e-006  ; (2.475 3.15 2.875 3.5)
+M3 3 1 GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=2.25e-013 as=7.45e-013 pd=1.45e-006 ps=3.7e-006  ; (4.475 2.9 4.825 3.9)
+M4 4 D 3 GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=2.25e-013 pd=2e-006 ps=1.45e-006  ; (5.275 2.9 5.625 3.9)
+M5 5 2 4 GND_ MODN l=3.5e-007 w=1e-006 ad=6.58333e-013 as=5e-013 pd=2.25e-006 ps=2e-006  ; (6.625 2.9 6.975 3.9)
+M6 6 RN 5 GND_ MODN l=3.5e-007 w=2e-006 ad=4.5e-013 as=1.31667e-012 pd=2.45e-006 ps=4.5e-006  ; (8.35 2.25 8.7 4.25)
+M7 GND_ 7 6 GND_ MODN l=3.5e-007 w=2e-006 ad=1.2e-012 as=4.5e-013 pd=4e-006 ps=2.45e-006  ; (9.15 2.25 9.5 4.25)
+M8 7 4 GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=6e-013 pd=2e-006 ps=2e-006  ; (10.5 3.05 10.85 4.05)
+M9 8 2 7 GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=5e-013 pd=2e-006 ps=2e-006  ; (11.85 3.05 12.2 4.05)
+M10 9 1 8 GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=5e-013 pd=2e-006 ps=2e-006  ; (13.2 3.05 13.55 4.05)
+M11 GND_ 10 9 GND_ MODN l=3.5e-007 w=1e-006 ad=6.66667e-013 as=5e-013 pd=2.06667e-006 ps=2e-006  ; (14.55 3.05 14.9 4.05)
+M12 11 8 GND_ GND_ MODN l=3.5e-007 w=2e-006 ad=4.5e-013 as=1.33333e-012 pd=2.45e-006 ps=4.13333e-006  ; (16 2.05 16.35 4.05)
+M13 10 RN 11 GND_ MODN l=3.5e-007 w=2e-006 ad=1.345e-012 as=4.5e-013 pd=5.8e-006 ps=2.45e-006  ; (16.8 2.05 17.15 4.05)
+M14 GND_ 10 Q GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=8.5e-013 pd=2e-006 ps=3.7e-006  ; (20.3 3.375 20.65 4.375)
+M15 QN 9 GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=8.5e-013 as=5e-013 pd=3.7e-006 ps=2e-006  ; (21.65 3.375 22 4.375)
+M16 VDD C 1 VDD MODP l=3.5e-007 w=1e-006 ad=1.16944e-012 as=7.45e-013 pd=3.86111e-006 ps=3.7e-006  ; (1.15 10.05 1.5 11.05)
+M17 2 1 VDD VDD MODP l=3.5e-007 w=8e-007 ad=7.55e-013 as=9.35556e-013 pd=3.9e-006 ps=3.08889e-006  ; (2.2 8.725 3 9.075)
+M18 4 1 5 VDD MODP l=3.5e-007 w=1e-006 ad=5e-013 as=1.355e-012 pd=2e-006 ps=5.1e-006  ; (4.4 8.85 5.4 9.2)
+M19 12 D 4 VDD MODP l=3.5e-007 w=1.6e-006 ad=3.6e-013 as=8e-013 pd=2.05e-006 ps=3.2e-006  ; (4.4 10.2 6 10.55)
+M20 VDD 2 12 VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=3.6e-013 pd=4.9e-006 ps=2.05e-006  ; (4.4 11 6 11.35)
+M21 5 RN VDD VDD MODP l=3.5e-007 w=1.95e-006 ad=6.575e-013 as=1.755e-012 pd=3.05e-006 ps=6.8e-006  ; (8.15 8.85 8.85 10.45)
+M22 VDD 7 5 VDD MODP l=3.5e-007 w=1.95e-006 ad=9.2875e-013 as=6.575e-013 pd=3.65e-006 ps=3.05e-006  ; (9.3 8.85 10 10.45)
+M23 7 4 VDD VDD MODP l=3.5e-007 w=1.95e-006 ad=1.24625e-012 as=9.2875e-013 pd=5.75e-006 ps=3.65e-006  ; (10.45 8.85 11.15 10.45)
+M24 8 1 7 VDD MODP l=3.5e-007 w=1e-006 ad=5e-013 as=8.5e-013 pd=2e-006 ps=3.7e-006  ; (11.9 6.65 12.25 7.65)
+M25 9 2 8 VDD MODP l=3.5e-007 w=1e-006 ad=8.5e-013 as=5e-013 pd=3.7e-006 ps=2e-006  ; (13.25 6.65 13.6 7.65)
+M26 VDD 10 9 VDD MODP l=3.5e-007 w=1.95e-006 ad=9.025e-013 as=1.255e-012 pd=3.6e-006 ps=5.7e-006  ; (15.375 9.25 16.075 10.85)
+M27 10 8 VDD VDD MODP l=3.5e-007 w=1.95e-006 ad=6.75e-013 as=9.025e-013 pd=3.1e-006 ps=3.6e-006  ; (16.525 9.25 17.225 10.85)
+M28 VDD RN 10 VDD MODP l=3.5e-007 w=1.95e-006 ad=1.6725e-012 as=6.75e-013 pd=6.45e-006 ps=3.1e-006  ; (17.675 9.25 18.375 10.85)
+M29 VDD 10 Q VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=1.36e-012 pd=2.6e-006 ps=4.9e-006  ; (20.3 7.35 20.65 8.95)
+M30 QN 9 VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=8e-013 pd=4.9e-006 ps=2.6e-006  ; (21.65 7.35 22 8.95)
+.ENDS
+
+.SUBCKT INV10_H A GND_ Q VDD
+M1 Q A GND_ GND_ MODN l=3.5e-007 w=2.5e-006 ad=1.34375e-012 as=2.3125e-012 pd=3.575e-006 ps=6.85e-006  ; (1.225 1.7 1.575 4.2)
+M2 GND_ A Q GND_ MODN l=3.5e-007 w=2.5e-006 ad=1.375e-012 as=1.34375e-012 pd=3.6e-006 ps=3.575e-006  ; (2.65 1.7 3 4.2)
+M3 Q A GND_ GND_ MODN l=3.5e-007 w=2.5e-006 ad=1.3125e-012 as=1.375e-012 pd=3.55e-006 ps=3.6e-006  ; (4.1 1.7 4.45 4.2)
+M4 GND_ A Q GND_ MODN l=3.5e-007 w=2.5e-006 ad=2.125e-012 as=1.3125e-012 pd=6.7e-006 ps=3.55e-006  ; (5.5 1.7 5.85 4.2)
+M5 Q A VDD VDD MODP l=3.5e-007 w=4e-006 ad=2.15e-012 as=3.7e-012 pd=5.075e-006 ps=9.85e-006  ; (1.225 7.45 1.575 11.45)
+M6 VDD A Q VDD MODP l=3.5e-007 w=4e-006 ad=2.2e-012 as=2.15e-012 pd=5.1e-006 ps=5.075e-006  ; (2.65 7.45 3 11.45)
+M7 Q A VDD VDD MODP l=3.5e-007 w=4e-006 ad=2.1e-012 as=2.2e-012 pd=5.05e-006 ps=5.1e-006  ; (4.1 7.45 4.45 11.45)
+M8 VDD A Q VDD MODP l=3.5e-007 w=4e-006 ad=3.4e-012 as=2.1e-012 pd=9.7e-006 ps=5.05e-006  ; (5.5 7.45 5.85 11.45)
+.ENDS
+
+.SUBCKT INV1_H A GND_ Q VDD
+M1 Q A GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=9.25e-013 as=9.25e-013 pd=3.85e-006 ps=3.85e-006  ; (0.85 2.725 1.85 3.075)
+M2 Q A VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=1.48e-012 as=1.48e-012 pd=5.05e-006 ps=5.05e-006  ; (1.225 9.7 1.575 11.3)
+.ENDS
+
+
+.SUBCKT MUX21_H A B GND_ Q S VDD
+*.PININFO A:I B:I S:I Q:O
+M1 1 S GND_ GND_ MODN l=3.5e-007 w=5e-007 ad=5.9e-013 as=5.1875e-013 pd=3.2e-006 ps=1.98333e-006  ; (0.775 3.15 1.275 3.5)
+M2 2 A GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=2.25e-013 as=1.0375e-012 pd=1.45e-006 ps=3.96667e-006  ; (2.55 2.2 2.9 3.2)
+M3 3 1 2 GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=2.25e-013 pd=2e-006 ps=1.45e-006  ; (3.35 2.2 3.7 3.2)
+M4 4 S 3 GND_ MODN l=3.5e-007 w=1e-006 ad=2.25e-013 as=5e-013 pd=1.45e-006 ps=2e-006  ; (4.7 2.2 5.05 3.2)
+M5 GND_ B 4 GND_ MODN l=3.5e-007 w=1e-006 ad=5.25e-013 as=2.25e-013 pd=2.05e-006 ps=1.45e-006  ; (5.5 2.2 5.85 3.2)
+M6 Q 3 GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=8.5e-013 as=5.25e-013 pd=3.7e-006 ps=2.05e-006  ; (6.9 2.2 7.25 3.2)
+M7 VDD S 1 VDD MODP l=3.5e-007 w=8e-007 ad=5.06667e-013 as=6.8e-013 pd=1.76667e-006 ps=3.3e-006  ; (1.15 9.2 1.5 10)
+M8 5 A VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=3.6e-013 as=1.01333e-012 pd=2.05e-006 ps=3.53333e-006  ; (2.55 9.2 2.9 10.8)
+M9 3 S 5 VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=3.6e-013 pd=2.6e-006 ps=2.05e-006  ; (3.35 9.2 3.7 10.8)
+M10 6 1 3 VDD MODP l=3.5e-007 w=1.6e-006 ad=3.6e-013 as=8e-013 pd=2.05e-006 ps=2.6e-006  ; (4.7 9.2 5.05 10.8)
+M11 VDD B 6 VDD MODP l=3.5e-007 w=1.6e-006 ad=8.4e-013 as=3.6e-013 pd=2.65e-006 ps=2.05e-006  ; (5.5 9.2 5.85 10.8)
+M12 Q 3 VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=8.4e-013 pd=4.9e-006 ps=2.65e-006  ; (6.9 9.2 7.25 10.8)
+.ENDS
+
+.SUBCKT NAND21_H A B GND_ Q VDD
+*.PININFO A:I B:I Q:O
+M1 1 B GND_ GND_ MODN l=3.5e-007 w=2e-006 ad=1e-012 as=1.7e-012 pd=3e-006 ps=5.7e-006  ; (1.25 1.6 1.6 3.6)
+M2 Q A 1 GND_ MODN l=3.5e-007 w=2e-006 ad=1.7e-012 as=1e-012 pd=5.7e-006 ps=3e-006  ; (2.6 1.6 2.95 3.6)
+M3 Q B VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=1.36e-012 pd=2.6e-006 ps=4.9e-006  ; (1.25 9.2 1.6 10.8)
+M4 VDD A Q VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=8e-013 pd=4.9e-006 ps=2.6e-006  ; (2.6 9.2 2.95 10.8)
+.ENDS
+
+.SUBCKT NAND31_H A B C GND_ Q VDD
+M1 1 C GND_ GND_ MODN l=3.5e-007 w=3.35e-006 ad=1.18438e-012 as=1.92e-012 pd=4.125e-006 ps=8e-006  ; (0.8 1.75 1.85 4.4)
+M2 2 B 1 GND_ MODN l=3.5e-007 w=3.35e-006 ad=1.21188e-012 as=1.18438e-012 pd=4.575e-006 ps=4.125e-006  ; (1.925 1.75 2.975 4.4)
+M3 Q A 2 GND_ MODN l=3.5e-007 w=3.35e-006 ad=3.125e-012 as=1.21188e-012 pd=8.2e-006 ps=4.575e-006  ; (3.5 1.75 4.55 4.4)
+M4 VDD C Q VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=1.36e-012 pd=2.6e-006 ps=4.9e-006  ; (1.15 9.725 1.5 11.325)
+M5 Q B VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=8e-013 pd=2.6e-006 ps=2.6e-006  ; (2.5 9.725 2.85 11.325)
+M6 VDD A Q VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=8e-013 pd=4.9e-006 ps=2.6e-006  ; (3.85 9.725 4.2 11.325)
+.ENDS
+
+.SUBCKT NAND41_H A B C D GND_ Q VDD
+M1 1 D GND_ GND_ MODN l=3.5e-007 w=4.35e-006 ad=9.7875e-013 as=3.37938e-012 pd=4.8e-006 ps=9.7e-006  ; (0.8 1.075 2.175 4.4)
+M2 2 C 1 GND_ MODN l=3.5e-007 w=4.35e-006 ad=1.26063e-012 as=9.7875e-013 pd=5.825e-006 ps=4.8e-006  ; (1.6 1.075 2.975 4.4)
+M3 3 B 2 GND_ MODN l=3.5e-007 w=4.35e-006 ad=9.7875e-013 as=1.26063e-012 pd=4.8e-006 ps=5.825e-006  ; (3.425 1.075 4.8 4.4)
+M4 Q A 3 GND_ MODN l=3.5e-007 w=4.35e-006 ad=5.37438e-012 as=9.7875e-013 pd=1.09e-005 ps=4.8e-006  ; (4.225 1.075 5.6 4.4)
+M5 VDD D Q VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=1.36e-012 pd=2.6e-006 ps=4.9e-006  ; (1.15 9.725 1.5 11.325)
+M6 Q C VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=8e-013 as=8e-013 pd=2.6e-006 ps=2.6e-006  ; (2.5 9.725 2.85 11.325)
+M7 VDD B Q VDD MODP l=3.5e-007 w=1.6e-006 ad=8.4e-013 as=8e-013 pd=2.65e-006 ps=2.6e-006  ; (3.85 9.725 4.2 11.325)
+M8 Q A VDD VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=8.4e-013 pd=4.9e-006 ps=2.65e-006  ; (5.25 9.725 5.6 11.325)
+.ENDS
+
+.SUBCKT NOR21_H A B GND_ Q VDD
+M1 Q A GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=8.5e-013 pd=2e-006 ps=3.7e-006  ; (1.25 2.25 1.6 3.25)
+M2 GND_ B Q GND_ MODN l=3.5e-007 w=1e-006 ad=8.5e-013 as=5e-013 pd=3.7e-006 ps=2e-006  ; (2.6 2.25 2.95 3.25)
+M3 1 A VDD VDD MODP l=3.5e-007 w=3.2e-006 ad=1.6e-012 as=2.72e-012 pd=4.2e-006 ps=8.1e-006  ; (1.25 7.575 1.6 10.775)
+M4 Q B 1 VDD MODP l=3.5e-007 w=3.2e-006 ad=2.72e-012 as=1.6e-012 pd=8.1e-006 ps=4.2e-006  ; (2.6 7.575 2.95 10.775)
+.ENDS
+
+.SUBCKT NOR31_H A B C GND_ Q VDD
+M1 Q A GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=8.5e-013 pd=2e-006 ps=3.7e-006  ; (1.35 2.1 1.7 3.1)
+M2 GND_ B Q GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=5e-013 pd=2e-006 ps=2e-006  ; (2.7 2.1 3.05 3.1)
+M3 Q C GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=8.5e-013 as=5e-013 pd=3.7e-006 ps=2e-006  ; (4.05 2.1 4.4 3.1)
+M4 1 A Q VDD MODP l=3.5e-007 w=5.15e-006 ad=1.15875e-012 as=3.3175e-012 pd=5.6e-006 ps=1.13e-005  ; (0.8 8 2.8 11.5)
+M5 2 B 1 VDD MODP l=3.5e-007 w=5.15e-006 ad=1.15875e-012 as=1.15875e-012 pd=5.6e-006 ps=5.6e-006  ; (1.6 8 3.6 11.5)
+M6 VDD C 2 VDD MODP l=3.5e-007 w=5.15e-006 ad=4.14e-012 as=1.15875e-012 pd=1.21e-005 ps=5.6e-006  ; (2.4 8 4.4 11.5)
+.ENDS
+
+.SUBCKT NOR41_H A B C D GND_ Q VDD
+M1 GND_ A Q GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=8.5e-013 pd=2e-006 ps=3.7e-006  ; (1.15 2.375 1.5 3.375)
+M2 Q B GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=5e-013 pd=2e-006 ps=2e-006  ; (2.5 2.375 2.85 3.375)
+M3 GND_ C Q GND_ MODN l=3.5e-007 w=1e-006 ad=5e-013 as=5e-013 pd=2e-006 ps=2e-006  ; (3.85 2.375 4.2 3.375)
+M4 Q D GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=8.5e-013 as=5e-013 pd=3.7e-006 ps=2e-006  ; (5.2 2.375 5.55 3.375)
+M5 1 A VDD VDD MODP l=3.5e-007 w=6.75e-006 ad=1.51875e-012 as=3.98313e-012 pd=7.2e-006 ps=1.505e-005  ; (0.8 7.55 3.6 11.85)
+M6 2 B 1 VDD MODP l=3.5e-007 w=6.75e-006 ad=1.51875e-012 as=1.51875e-012 pd=7.2e-006 ps=7.2e-006  ; (1.6 7.55 4.4 11.85)
+M7 3 C 2 VDD MODP l=3.5e-007 w=6.75e-006 ad=1.51875e-012 as=1.51875e-012 pd=7.2e-006 ps=7.2e-006  ; (2.4 7.55 5.2 11.85)
+M8 Q D 3 VDD MODP l=3.5e-007 w=6.75e-006 ad=5.04e-012 as=1.51875e-012 pd=1.56e-005 ps=7.2e-006  ; (3.2 7.55 6 11.85)
+.ENDS
+
+.SUBCKT TIE0_H GND_ Q VDD
+*.PININFO Q:O
+M1 Q 1 GND_ GND_ MODN l=5e-007 w=2.95e-006 ad=2.5075e-012 as=2.5075e-012 pd=7.6e-006 ps=7.6e-006  ; (1.15 1.45 1.65 4.4)
+M2 VDD 1 1 VDD MODP l=5e-007 w=4.75e-006 ad=4.0375e-012 as=4.0375e-012 pd=1.12e-005 ps=1.12e-005  ; (1.15 6.8 1.65 11.55)
+.ENDS
+
+.SUBCKT TIE1_H GND_ Q VDD
+*.PININFO Q:O
+M1 1 1 GND_ GND_ MODN l=5e-007 w=2.95e-006 ad=2.5075e-012 as=2.5075e-012 pd=7.6e-006 ps=7.6e-006  ; (1.15 1.45 1.65 4.4)
+M2 VDD 1 Q VDD MODP l=5e-007 w=4.75e-006 ad=4.0375e-012 as=4.0375e-012 pd=1.12e-005 ps=1.12e-005  ; (1.15 6.8 1.65 11.55)
+.ENDS
+
+.SUBCKT BUF4_H A GND_ Q VDD
+M1 GND_ A 1 GND_ MODN l=3.5e-007 w=1e-006 ad=6.33333e-013 as=8.5e-013 pd=2.03333e-006 ps=3.7e-006  ; (1.35 3.15 1.7 4.15)
+M2 Q 1 GND_ GND_ MODN l=3.5e-007 w=2e-006 ad=1e-012 as=1.26667e-012 pd=3e-006 ps=4.06667e-006  ; (2.75 2.15 3.1 4.15)
+M3 GND_ 1 Q GND_ MODN l=3.5e-007 w=2e-006 ad=1.7e-012 as=1e-012 pd=5.7e-006 ps=3e-006  ; (4.1 2.15 4.45 4.15)
+M4 VDD A 1 VDD MODP l=3.5e-007 w=1.6e-006 ad=1.01333e-012 as=1.36e-012 pd=2.83333e-006 ps=4.9e-006  ; (1.35 8.25 1.7 9.85)
+M5 Q 1 VDD VDD MODP l=3.5e-007 w=3.2e-006 ad=1.6e-012 as=2.02667e-012 pd=4.2e-006 ps=5.66667e-006  ; (2.75 8.25 3.1 11.45)
+M6 VDD 1 Q VDD MODP l=3.5e-007 w=3.2e-006 ad=2.72e-012 as=1.6e-012 pd=8.1e-006 ps=4.2e-006  ; (4.1 8.25 4.45 11.45)
+.ENDS
+
+.SUBCKT XNR21_H A B GND_ Q VDD
+*.PININFO A:I B:I Q:O
+M1 GND_ A 1 GND_ MODN l=3.5e-007 w=2e-006 ad=1.025e-012 as=1.7e-012 pd=3.025e-006 ps=5.7e-006  ; (1.15 2.3 1.5 4.3)
+M2 1 B GND_ GND_ MODN l=3.5e-007 w=2e-006 ad=1e-012 as=1.025e-012 pd=3e-006 ps=3.025e-006  ; (2.525 2.3 2.875 4.3)
+M3 Q 2 1 GND_ MODN l=3.5e-007 w=2e-006 ad=1.7e-012 as=1e-012 pd=5.7e-006 ps=3e-006  ; (3.875 2.3 4.225 4.3)
+M4 3 A GND_ GND_ MODN l=3.5e-007 w=1e-006 ad=2.375e-013 as=9e-013 pd=1.475e-006 ps=3.8e-006  ; (5.825 1.75 6.825 2.1)
+M5 2 B 3 GND_ MODN l=3.5e-007 w=1e-006 ad=9e-013 as=2.375e-013 pd=3.8e-006 ps=1.475e-006  ; (5.825 2.575 6.825 2.925)
+M6 4 A VDD VDD MODP l=3.5e-007 w=3.2e-006 ad=7.2e-013 as=2.72e-012 pd=3.65e-006 ps=8.1e-006  ; (1.425 7.6 1.775 10.8)
+M7 Q B 4 VDD MODP l=3.5e-007 w=3.2e-006 ad=2.34667e-012 as=7.2e-013 pd=5.86667e-006 ps=3.65e-006  ; (2.225 7.6 2.575 10.8)
+M8 VDD 2 Q VDD MODP l=3.5e-007 w=1.6e-006 ad=1.36e-012 as=1.17333e-012 pd=4.9e-006 ps=2.93333e-006  ; (3.775 8.6 4.125 10.2)
+M9 VDD B 2 VDD MODP l=3.5e-007 w=8e-007 ad=1.00625e-012 as=7.2e-013 pd=3.525e-006 ps=3.4e-006  ; (6.475 10.05 6.825 10.85)
+M10 2 A VDD VDD MODP l=3.5e-007 w=8e-007 ad=6.8e-013 as=1.00625e-012 pd=3.3e-006 ps=3.525e-006  ; (6.925 7.975 7.725 8.325)
+.ENDS
+
+.SUBCKT XOR21_H A B GND_ Q VDD
+*.PININFO A:I B:I Q:O
+M1 1 B GND_ GND_ MODN l=3.5e-007 w=2e-006 ad=4.5e-013 as=1.7e-012 pd=2.45e-006 ps=5.7e-006  ; (1.15 2.175 1.5 4.175)
+M2 Q A 1 GND_ MODN l=3.5e-007 w=2e-006 ad=1.46667e-012 as=4.5e-013 pd=4.26667e-006 ps=2.45e-006  ; (1.95 2.175 2.3 4.175)
+M3 GND_ 2 Q GND_ MODN l=3.5e-007 w=1e-006 ad=5.93939e-013 as=7.33333e-013 pd=2.48485e-006 ps=2.13333e-006  ; (3.5 3.175 3.85 4.175)
+M4 2 A GND_ GND_ MODN l=3.5e-007 w=6.5e-007 ad=6.55e-013 as=3.86061e-013 pd=2.6e-006 ps=1.61515e-006  ; (4.9 3.325 5.25 3.975)
+M5 GND_ B 2 GND_ MODN l=3.5e-007 w=6.5e-007 ad=6.2e-013 as=6.55e-013 pd=3.2e-006 ps=2.6e-006  ; (6.3 2.775 6.95 3.125)
+M6 VDD B 3 VDD MODP l=3.5e-007 w=3.2e-006 ad=1.6e-012 as=2.72e-012 pd=4.2e-006 ps=8.1e-006  ; (1.15 7.35 1.5 10.55)
+M7 3 A VDD VDD MODP l=3.5e-007 w=3.2e-006 ad=1.6e-012 as=1.6e-012 pd=4.2e-006 ps=4.2e-006  ; (2.5 7.35 2.85 10.55)
+M8 Q 2 3 VDD MODP l=3.5e-007 w=3.2e-006 ad=2.72e-012 as=1.6e-012 pd=8.1e-006 ps=4.2e-006  ; (3.85 7.35 4.2 10.55)
+M9 4 A VDD VDD MODP l=3.5e-007 w=2.05e-006 ad=4.6125e-013 as=1.7425e-012 pd=2.5e-006 ps=5.8e-006  ; (6.5 8.5 6.85 10.55)
+M10 2 B 4 VDD MODP l=3.5e-007 w=2.05e-006 ad=1.7425e-012 as=4.6125e-013 pd=5.8e-006 ps=2.5e-006  ; (7.3 8.5 7.65 10.55)
+.ENDS
+

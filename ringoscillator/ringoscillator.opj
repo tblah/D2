@@ -1,0 +1,123 @@
+(ExpressProject "ringoscillator"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\ringoscillator.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\ringoscillator-pspicefiles\testbench\testbench.net"
+      (Type "Report"))
+    (File ".\ringoscillator-pspicefiles\newbench\newbench.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\ringoscillator-pspicefiles\newbench\simit.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ringoscillator-pspicefiles\newbench\simit.sim"
+        (DisplayName "Newbench-SIMIT")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "H:\D2ext\libraries\schematic\d2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "H:\D2ext\libraries\schematic\d2.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (NOR21_H
+      (FullPartName "NOR21_H.Normal")
+      (LibraryName "\\UGSAMBA\GPEH1G14\D2EXT\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (INV10_H
+      (FullPartName "INV10_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (INV1_H
+      (FullPartName "INV1_H.Normal")
+      (LibraryName "H:\D2GIT\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (portout
+      (LibraryName "\\UGSAMBA\GPEH1G14\D2GIT\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (BUF4_H
+      (FullPartName "BUF4_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NAND21_H
+      (FullPartName "NAND21_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (TIE0_H
+      (FullPartName "TIE0_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (MUX21_H
+      (FullPartName "MUX21_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (TIE1_H
+      (FullPartName "TIE1_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (DFC1_H
+      (FullPartName "DFC1_H.Normal")
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (portin
+      (LibraryName "H:\D2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "\\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator.dsn")
+      (Path "Design Resources"
+         "\\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator.dsn"
+         "RingOscillator")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "\\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator.dsn"
+         "RingOscillator" "RingOscillator"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 344"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 945 52 733")
+        (Scroll "-473 -8")
+        (Zoom "101")
+        (Occurrence "/oscill"))
+      (Path "\\UGSAMBA\GPEH1G14\D2COPY2\RINGOSCILLATOR\RINGOSCILLATOR.DSN")
+      (Schematic "RingOscillator")
+      (Page "RingOscillator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 2116 234 924")
+        (Scroll "-262 109")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path "\\UGSAMBA\GPEH1G14\D2COPY2\RINGOSCILLATOR\RINGOSCILLATOR.DSN")
+      (Schematic "Newbench")
+      (Page "Bench")))
+  (MPSSessionName "gpeh1g14")
+  (LastUsedLibraryBrowseDirectory
+     "\\ugsamba\gpeh1g14\D2ext\libraries\schematic"))

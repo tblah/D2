@@ -1,0 +1,464 @@
+
+**** 10/19/15 10:10:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "SIMIT.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "H:/D2ext/libraries/schematic/d2.lib" 
+* From [PSPICE NETLIST] section of C:\Users\gpeh1g14\AppData\Local\Temp\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Newbench.net" 
+
+
+
+**** INCLUDING Newbench.net ****
+* source RINGOSCILLATOR
+U_Stim         STIM(1,1)
++ $G_DPWR $G_DGND
++ N02587 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 10ns 1  
+V_V2         GND 0 0Vdc
+X_oscill_U37         oscill_N05522 oscill_N05534 GND oscill_N05720
++  oscill_N05534 oscill_N05983 VDD DFC1_H 
+X_oscill_U29         oscill_N05386 GND oscill_N050011 VDD INV1_H 
+X_oscill_U31         oscill_N05041 GND oscill_N05403 VDD INV1_H 
+X_oscill_U38         oscill_N05720 oscill_N05728 GND oscill_N05791
++  oscill_N05728 oscill_N05983 VDD DFC1_H 
+X_oscill_U12         GND oscill_N05983 VDD TIE1_H 
+X_oscill_U32         oscill_N05403 GND oscill_N050891 VDD INV1_H 
+X_oscill_U9         oscill_N05403 oscill_N02408 GND oscill_N05522 oscill_N02408
++  oscill_N05983 VDD DFC1_H 
+X_oscill_U39         oscill_N05791 oscill_N05799 GND oscill_N05862
++  oscill_N05799 oscill_N05983 VDD DFC1_H 
+X_oscill_U28         oscill_N049730 GND oscill_N05386 VDD INV1_H 
+X_oscill_U40         oscill_N05862 oscill_N05870 GND oscill_N05933
++  oscill_N05870 oscill_N05983 VDD DFC1_H 
+X_oscill_U30         oscill_N050011 GND oscill_N05041 VDD INV1_H 
+X_oscill_U41         oscill_N05933 oscill_N05941 GND N02593 oscill_N05941
++  oscill_N05983 VDD DFC1_H 
+X_oscill_U33         oscill_N050891 GND oscill_N051151 VDD INV1_H 
+X_oscill_U44         N02587 oscill_N03216 GND oscill_N08110 VDD NAND21_H 
+X_oscill_U49         oscill_N103651 GND oscill_N103871 VDD INV1_H 
+X_oscill_U48         oscill_N051151 GND oscill_N103651 VDD INV1_H 
+X_oscill_U50         oscill_N103871 GND oscill_N110811 VDD INV1_H 
+X_oscill_U51         oscill_N110811 GND oscill_N111051 VDD INV1_H 
+X_oscill_U52         oscill_N122200 GND oscill_N049730 VDD INV1_H 
+X_oscill_U53         oscill_N122440 GND oscill_N122200 VDD INV1_H 
+X_oscill_U56         oscill_N123120 GND oscill_N122900 VDD INV1_H 
+X_oscill_U55         oscill_N122900 GND oscill_N122680 VDD INV1_H 
+X_oscill_U54         oscill_N122680 GND oscill_N122440 VDD INV1_H 
+X_oscill_U57         oscill_N123400 GND oscill_N123120 VDD INV1_H 
+X_oscill_U58         oscill_N08110 GND oscill_N123400 VDD INV1_H 
+X_oscill_U62         oscill_N127021 GND oscill_N127241 VDD INV1_H 
+X_oscill_U61         oscill_N126801 GND oscill_N127021 VDD INV1_H 
+X_oscill_U59         oscill_N111051 GND oscill_N126581 VDD INV1_H 
+X_oscill_U60         oscill_N126581 GND oscill_N126801 VDD INV1_H 
+X_oscill_U63         oscill_N127241 GND oscill_N03216 VDD INV1_H 
+V_V1         VDD 0 3.3Vdc
+
+**** RESUMING SIMIT.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file H:\D2ext\libraries\schematic\d2.lib has changed since index file d2.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Thu Oct 15 21:32:48 2015 to Sat Oct 17 11:19:32 2015.
+
+INFO(ORPSIM-15422): Making new index file d2.ind for library file d2.lib.
+
+Index has 29 entries from 1 file(s).
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node N02587
+*
+* Moving U_Stim:OUT1 from analog node N02587 to new digital node N02587$DtoA
+X$N02587_DtoA1
++ N02587$DtoA
++ N02587
++ $G_DPWR
++ $G_DGND
++ DtoA_STM
++       PARAMS: DRVH=   0      DRVL=   0      CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+INFO(ORPSIM-15454): Model MODN: Using BSIM VERSION 3.1 or lower
+
+INFO(ORPSIM-15454): Model MODP: Using BSIM VERSION 3.1 or lower
+
+**** 10/19/15 10:10:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MODN            MODP            
+               NMOS            PMOS            
+       LEVEL    7               7            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO     .4979          -.6915       
+          KP  273.516300E-06  267.202200E-06 
+       GAMMA    0               0            
+      LAMBDA    0               0            
+         RSH   70             129            
+          IS    0               0            
+          JS   10.000000E-06   90.000000E-06 
+          PB     .69            1.02         
+        PBSW     .69            1.02         
+          CJ  940.000000E-06    1.360000E-03 
+        CJSW  250.000000E-12  320.000000E-12 
+          MJ     .34             .56         
+        MJSW     .23             .43         
+        CGSO  120.000000E-12   86.000000E-12 
+        CGDO  130.000000E-12   86.000000E-12 
+        CGBO  110.000000E-12  110.000000E-12 
+         TOX    7.575000E-09    7.754000E-09 
+          XJ  300.000000E-09  300.000000E-09 
+       UCRIT   10.000000E+03   10.000000E+03 
+       DELTA     .01442          .01         
+          KF    5.100000E-27    8.500000E-27 
+          AF    1.36            1.48         
+      DIOMOD    2               2            
+          K1     .50296          .59959      
+          K2     .033985        -.06038      
+        LETA    0               0            
+        WETA    0               0            
+          U0  475.8           148.2          
+       XPART    1               1            
+        VTH0     .4979          -.6915       
+          K3   -1.136          11.03         
+          W0  267.300000E-09  100.000000E-12 
+         NLX  188.800000E-09  177.000000E-09 
+        DVT0   50               1.65         
+        DVT1    1.039            .3868       
+          UA    4.705000E-12  539.400000E-12 
+          UB    2.137000E-18    1.053000E-18 
+          UC   10.000000E-21   10.000000E-21 
+        VSAT  133.800000E+03  115.800000E+03 
+        RDSW  344.9             1.033000E+03 
+        VOFF    -.08925         -.117        
+     NFACTOR     .4136          1.214        
+        CDSC    0               2.589000E-03 
+        PCLM     .6948          3.184        
+      PDIBL1     .3571        100.000000E-06 
+      PDIBL2    2.065000E-03   10.000000E-21 
+       DROUT     .5              .5          
+      PSCBE1  351.800000E+06    5.000000E+09 
+      PSCBE2   74.910000E-06  100.000000E-06 
+          A0    2.541            .585        
+          A1    0               0            
+          A2    1               1            
+       NPEAK  261.100000E+15   92.400000E+15 
+         LDD    0               0            
+        LITL   82.568160E-09   83.538020E-09 
+         KT1    -.3302          -.5403       
+         UA1    0               0            
+         UB1    0               0            
+         UC1    0               0            
+        KETA     .02032         -.0144       
+        ETA0     .01415          .248        
+        ETAB    -.1221         -3.917000E-03 
+         K3B    -.4399          -.758        
+        DVT2   -8.375000E-03     .01659      
+       CDSCB    1.500000E-03  294.300000E-06 
+         CIT  444.100000E-06                 
+        DSUB     .5              .5          
+         UTE   -1.8            -1.3          
+      MOBMOD    1               1            
+      NOIMOD    3               3            
+       CDSCD    1.000000E-03  437.000000E-06 
+         AGS     .2408           .2468       
+       DVT0W     .1089           .1879       
+       DVT1W   66.710000E+03   73.350000E+03 
+       DVT2W    -.01352        -6.312000E-03 
+        PRWG    0                .1477       
+        PRWB    -.2416          -.09731      
+     PDIBLCB     .3222          1            
+          B0    4.301000E-09   88.320000E-09 
+        CGSL  131.000000E-12  108.000000E-12 
+        CGDL  131.000000E-12  108.000000E-12 
+         CLC    1.000000E-15    1.000000E-15 
+        LINT  -50.050000E-09  -71.300000E-09 
+        WINT   94.030000E-09   34.490000E-09 
+          WW  -12.970000E-15  189.400000E-18 
+         WWN                    1.04         
+         WWL   -9.411000E-21   -1.981000E-21 
+         DLC   30.000000E-09   24.500000E-09 
+         DWC   94.030000E-09   34.490000E-09 
+          CF    0               0            
+        NOIA   17.300000E+18    1.520000E+18 
+        NOIB   70.000000E+03    7.750000E+03 
+        NOIC -564.000000E-15  500.000000E-15 
+         VTM     .025864         .025864     
+     VERSION    3.1             3.1          
+       PBSWG     .69            1.02         
+       MJSWG     .23             .43         
+       CJSWG  250.000000E-12  320.000000E-12 
+       JTSCD   10.000000E-06   90.000000E-06 
+
+
+**** 10/19/15 10:10:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DINSTM          
+      S0NAME 0               
+       S0TSW  500.000000E-12 
+       S0RLO     .5          
+       S0RHI    1.000000E+03 
+      S1NAME 1               
+       S1TSW  500.000000E-12 
+       S1RLO    1.000000E+03 
+       S1RHI     .5          
+      S2NAME X               
+       S2TSW  500.000000E-12 
+       S2RLO     .429        
+       S2RHI    1.16         
+      S3NAME R               
+       S3TSW  500.000000E-12 
+       S3RLO     .429        
+       S3RHI    1.16         
+      S4NAME F               
+       S4TSW  500.000000E-12 
+       S4RLO     .429        
+       S4RHI    1.16         
+      S5NAME Z               
+       S5TSW  500.000000E-12 
+       S5RLO    1.000000E+06 
+       S5RHI    1.000000E+06 
+
+
+**** 10/19/15 10:10:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          
+        DRVL    0            
+        DRVH    0            
+       DtoA1 DtoA_STM        
+       DtoA2 DtoA_STM        
+       DtoA3 DtoA_STM        
+       DtoA4 DtoA_STM        
+       TPWRT  100.000000E+03 
+
+
+**** 10/19/15 10:10:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  GND)    0.0000  (  VDD)    3.3000  (N02587)     .0025 (N02593) 5.670E-09     
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+(oscill_N02408)    3.3000             (oscill_N03216)    3.3000                 
+
+(oscill_N05041)    3.3000             (oscill_N05386)    3.3000                 
+
+(oscill_N05403) 5.670E-09             (oscill_N05522) 5.670E-09                 
+
+(oscill_N05534)    3.3000             (oscill_N05720) 5.670E-09                 
+
+(oscill_N05728)    3.3000             (oscill_N05791) 5.670E-09                 
+
+(oscill_N05799)    3.3000             (oscill_N05862) 5.670E-09                 
+
+(oscill_N05870)    3.3000             (oscill_N05933) 5.670E-09                 
+
+(oscill_N05941)    3.3000             (oscill_N05983)    3.3000                 
+
+(oscill_N08110)    3.3000             (X_oscill_U9.1)    3.3000                 
+
+(X_oscill_U9.2) 12.16E-09             (X_oscill_U9.3) 11.31E-09                 
+
+(X_oscill_U9.4) 22.61E-09             (X_oscill_U9.5) 16.47E-09                 
+
+(X_oscill_U9.6) 8.236E-09             (X_oscill_U9.7)    3.3000                 
+
+(X_oscill_U9.8) 34.41E-09             (X_oscill_U9.9) 22.86E-09                 
+
+(oscill_N049730) 5.670E-09            (oscill_N050011) 5.670E-09                
+
+(oscill_N050891)    3.3000            (oscill_N051151) 5.670E-09                
+
+(oscill_N103651)    3.3000            (oscill_N103871) 5.670E-09                
+
+(oscill_N110811)    3.3000            (oscill_N111051) 5.670E-09                
+
+(oscill_N122200)    3.3000            (oscill_N122440) 5.670E-09                
+
+(oscill_N122680)    3.3000            (oscill_N122900) 5.670E-09                
+
+(oscill_N123120)    3.3000            (oscill_N123400) 5.670E-09                
+
+(oscill_N126581)    3.3000            (oscill_N126801) 5.670E-09                
+
+(oscill_N127021)    3.3000            (oscill_N127241) 5.670E-09                
+
+(X_oscill_U12.1) 76.63E-18            (X_oscill_U37.1)    3.3000                
+
+(X_oscill_U37.2) 12.16E-09            (X_oscill_U37.3) 11.31E-09                
+
+(X_oscill_U37.4) 22.61E-09            (X_oscill_U37.5) 16.47E-09                
+
+(X_oscill_U37.6) 8.236E-09            (X_oscill_U37.7)    3.3000                
+
+(X_oscill_U37.8) 34.41E-09            (X_oscill_U37.9) 22.86E-09                
+
+(X_oscill_U38.1)    3.3000            (X_oscill_U38.2) 12.16E-09                
+
+(X_oscill_U38.3) 11.31E-09            (X_oscill_U38.4) 22.61E-09                
+
+(X_oscill_U38.5) 16.47E-09            (X_oscill_U38.6) 8.236E-09                
+
+(X_oscill_U38.7)    3.3000            (X_oscill_U38.8) 34.41E-09                
+
+(X_oscill_U38.9) 22.86E-09            (X_oscill_U39.1)    3.3000                
+
+(X_oscill_U39.2) 12.16E-09            (X_oscill_U39.3) 11.31E-09                
+
+(X_oscill_U39.4) 22.61E-09            (X_oscill_U39.5) 16.47E-09                
+
+(X_oscill_U39.6) 8.236E-09            (X_oscill_U39.7)    3.3000                
+
+(X_oscill_U39.8) 34.41E-09            (X_oscill_U39.9) 22.86E-09                
+
+(X_oscill_U40.1)    3.3000            (X_oscill_U40.2) 12.16E-09                
+
+(X_oscill_U40.3) 11.31E-09            (X_oscill_U40.4) 22.61E-09                
+
+(X_oscill_U40.5) 16.47E-09            (X_oscill_U40.6) 8.236E-09                
+
+(X_oscill_U40.7)    3.3000            (X_oscill_U40.8) 34.41E-09                
+
+(X_oscill_U40.9) 22.86E-09            (X_oscill_U41.1)    3.3000                
+
+(X_oscill_U41.2) 12.16E-09            (X_oscill_U41.3) 11.31E-09                
+
+(X_oscill_U41.4) 22.61E-09            (X_oscill_U41.5) 16.47E-09                
+
+(X_oscill_U41.6) 8.236E-09            (X_oscill_U41.7)    3.3000                
+
+(X_oscill_U41.8) 34.41E-09            (X_oscill_U41.9) 22.86E-09                
+
+(X_oscill_U44.1) 175.9E-12            (X_oscill_U9.10)    3.3000                
+
+(X_oscill_U9.11)    2.6941            (X_oscill_U9.12)    3.3000                
+
+(X_oscill_U37.10)    3.3000           (X_oscill_U37.11)    2.6941               
+
+(X_oscill_U37.12)    3.3000           (X_oscill_U38.10)    3.3000               
+
+(X_oscill_U38.11)    2.6941           (X_oscill_U38.12)    3.3000               
+
+(X_oscill_U39.10)    3.3000           (X_oscill_U39.11)    2.6941               
+
+(X_oscill_U39.12)    3.3000           (X_oscill_U40.10)    3.3000               
+
+(X_oscill_U40.11)    2.6941           (X_oscill_U40.12)    3.3000               
+
+(X_oscill_U41.10)    3.3000           (X_oscill_U41.11)    2.6941               
+
+(X_oscill_U41.12)    3.3000           
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(N02587$DtoA) : 0  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         4.324E-10
+    V_V1        -4.324E-10
+    X$DIGIFPWR.VDPWR  -5.003E-03
+    X$DIGIFPWR.VDGND  -5.000E-06
+
+    TOTAL POWER DISSIPATION   2.50E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/19/15 10:10:15 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "Newbench-SIMIT"  [ \\ugsamba\gpeh1g14\D2copy2\ringoscillator\ringoscillator-pspicefiles\newbench\simit.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       16.05
+

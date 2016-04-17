@@ -1,0 +1,20 @@
+** Profile: "TESTBENCH-SIGNCHANGER"  [ H:\D2\unsignedmultiplier\multiplier-pspicefiles\testbench\signchanger.sim ] 
+
+** Creating circuit file "SIGNCHANGER.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "H:/D2/libraries/schematic/d2.lib" 
+* From [PSPICE NETLIST] section of d:\Users\gpeh1g14\AppData\Local\Temp\54\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TESTBENCH.net" 
+
+
+.END

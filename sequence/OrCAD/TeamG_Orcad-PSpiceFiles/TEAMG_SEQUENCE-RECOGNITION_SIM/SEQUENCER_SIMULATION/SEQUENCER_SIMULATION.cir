@@ -1,0 +1,20 @@
+** Profile: "TEAMG_SEQUENCE-RECOGNITION_SIM-SEQUENCER_SIMULATION"  [ \\ugsamba\ja6g14\Documents\Year 2\D2\sequence\OrCAD\teamg_orcad-pspicefiles\teamg_sequence-recognition_sim\sequencer_simulation.sim ] 
+
+** Creating circuit file "SEQUENCER_SIMULATION.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "//ugsamba/ja6g14/Documents/Year 2/D2/D2.lib" 
+* From [PSPICE NETLIST] section of C:\Users\ja6g14\AppData\Local\Temp\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 150ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TEAMG_SEQUENCE-RECOGNITION_SIM.net" 
+
+
+.END

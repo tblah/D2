@@ -1,0 +1,2860 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("VDC")
+        ("INV1_H")
+        ("NAND21_H")
+        ("XOR21_H")
+        ("MUX21_H")
+        ("NOR21_H")
+        ("TIE0_H")
+        ("STIM1")
+    )
+    ("instances"
+        ("V1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"3.3Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"-97.96mW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("V2"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.U5"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_U5")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U16"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U16")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER7.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER7_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER7.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER7_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER7.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER7_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U3"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U10"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U10")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER6.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER6_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER6.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER6_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER6.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER6_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER2.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U12"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U12")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER5.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER5_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER5.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER5_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER5.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER5_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U5"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U5")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U2"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U6"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U6")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U8"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U8")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U14"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U14")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U17"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U17")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U11"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U11")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER4.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER4_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER4.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER4_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER4.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER4_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U13"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U13")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U15"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U15")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER3.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER3_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.HALFADDER3.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_HALFADDER3_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U9"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U4"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPER8BIT.U7"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPER8BIT_U7")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER3.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER3_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER3.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER3_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER2.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.HALFADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_HALFADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERX.U9"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERX_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK2.FULLADDER2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK2_FULLADDER2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK0.FULLADDER2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK0_FULLADDER2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.U7"
+            ("device_name"	"TIE0_H")
+            ("pspice_path"	"X_MULTIPLIER_U7")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"8.425e-18W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER3.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER3_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER3.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER3_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER2.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.HALFADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_HALFADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.FLIPPERY.U9"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_FLIPPERY_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.MULTIBLOCK1.FULLADDER2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_MULTIBLOCK1_FULLADDER2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.U6"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_MULTIPLIER_U6")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"47.88pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_MULTIPLIER_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("MULTIPLIER.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_MULTIPLIER_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("Y0"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_Y0")
+            ("level"	"0")
+            ("model_params"
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("Y1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_Y1")
+            ("level"	"0")
+            ("model_params"
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("Y2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_Y2")
+            ("level"	"0")
+            ("model_params"
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("Y3"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_Y3")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("X0"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_X0")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("X1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_X1")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("X2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_X2")
+            ("level"	"0")
+            ("model_params"
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("X3"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_X3")
+            ("level"	"0")
+            ("model_params"
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("Signed"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_Signed")
+            ("level"	"0")
+            ("model_params"
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+    )
+)

@@ -1,0 +1,100 @@
+
+**** 10/07/15 20:50:19 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SIGNCHANGER4bit-Simrun"  [ H:\D2\multiplier\multiplier-PSpiceFiles\SIGNCHANGER4bit\Simrun.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Simrun.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of d:\Users\gpeh1g14\AppData\Local\Temp\54\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SIGNCHANGER4bit.net" 
+
+
+
+**** INCLUDING SIGNCHANGER4bit.net ****
+* source MULTIPLIER
+.EXTERNAL INPUT Flip
+.EXTERNAL OUTPUT Out3
+.EXTERNAL OUTPUT Out2
+.EXTERNAL OUTPUT Out1
+.EXTERNAL OUTPUT Out0
+.EXTERNAL INPUT In3
+.EXTERNAL INPUT In2
+.EXTERNAL INPUT In1
+.EXTERNAL INPUT In0
+X_HALFADDER1_U4         N00491 N00256 GND HALFADDER1_N00228 VDD NAND21_H 
+X_HALFADDER1_U3         N00491 N00256 GND OUT2 VDD XOR21_H 
+X_HALFADDER1_U2         HALFADDER1_N00228 GND N01437 VDD INV1_H 
+X_HALFADDER2_U4         N00501 N00252 GND HALFADDER2_N00228 VDD NAND21_H 
+X_HALFADDER2_U3         N00501 N00252 GND OUT1 VDD XOR21_H 
+X_HALFADDER2_U2         HALFADDER2_N00228 GND N00256 VDD INV1_H 
+X_HALFADDER3_U4         N00505 FLIP GND HALFADDER3_N00228 VDD NAND21_H 
+X_HALFADDER3_U3         N00505 FLIP GND OUT0 VDD XOR21_H 
+X_HALFADDER3_U2         HALFADDER3_N00228 GND N00252 VDD INV1_H 
+X_U1         IN3 N00923 GND N01449 FLIP VDD MUX21_H 
+X_U2         IN2 N00927 GND N00491 FLIP VDD MUX21_H 
+X_U3         IN1 N00931 GND N00501 FLIP VDD MUX21_H 
+X_U4         IN0 N00935 GND N00505 FLIP VDD MUX21_H 
+X_U5         IN3 GND N00923 VDD INV1_H 
+X_U6         IN2 GND N00927 VDD INV1_H 
+X_U7         IN1 GND N00931 VDD INV1_H 
+X_U8         IN0 GND N00935 VDD INV1_H 
+X_U9         N01437 N01449 GND OUT3 VDD XOR21_H 
+
+**** RESUMING Simrun.cir ****
+.END
+
+ERROR(ORPSIM-15108): Subcircuit NAND21_H used by X_HALFADDER1_U4 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit XOR21_H used by X_HALFADDER1_U3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_HALFADDER1_U2 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit NAND21_H used by X_HALFADDER2_U4 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit XOR21_H used by X_HALFADDER2_U3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_HALFADDER2_U2 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit NAND21_H used by X_HALFADDER3_U4 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit XOR21_H used by X_HALFADDER3_U3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_HALFADDER3_U2 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit MUX21_H used by X_U1 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit MUX21_H used by X_U2 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit MUX21_H used by X_U3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit MUX21_H used by X_U4 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_U5 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_U6 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_U7 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit INV1_H used by X_U8 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit XOR21_H used by X_U9 is undefined
+

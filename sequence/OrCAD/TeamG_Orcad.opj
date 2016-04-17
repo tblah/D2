@@ -1,0 +1,146 @@
+(ExpressProject "TeamG_Orcad"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\teamg_orcad.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Outputs"
+    (File
+       ".\teamg_orcad-pspicefiles\teamg_sequence-recognition_sim\teamg_sequence-recognition_sim.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\teamg_orcad-pspicefiles\teamg_sequence-recognition_sim\sequencer_simulation.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\teamg_orcad-pspicefiles\teamg_sequence-recognition_sim\sequencer_simulation.sim"
+        (DisplayName "TEAMG_SEQUENCE-RECOGNITION_SIM-SEQUENCER_SIMULATION")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "\\ugsamba\ja6g14\Documents\Year 2\D2\D2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "\\ugsamba\ja6g14\Documents\Year 2\D2\D2.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (DigClock
+      (FullPartName "DigClock.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (FileStim2
+      (FullPartName "FileStim2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (INV1_H
+      (FullPartName "INV1_H.Normal")
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NAND21_H
+      (FullPartName "NAND21_H.Normal")
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NOR21_H
+      (FullPartName "NOR21_H.Normal")
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NAND41_H
+      (FullPartName "NAND41_H.Normal")
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (portin
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NAND31_H
+      (FullPartName "NAND31_H.Normal")
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (NOR31_H
+      (FullPartName "NOR31_H.Normal")
+      (LibraryName "H:\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (NOR41_H
+      (FullPartName "NOR41_H.Normal")
+      (LibraryName "H:\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (portout
+      (LibraryName "\\UGSAMBA\JA6G14\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0"))
+    (DFC1_H
+      (FullPartName "DFC1_H.Normal")
+      (LibraryName "H:\DOCUMENTS\YEAR 2\D2_H.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "h:\documents\git\sequence\orcad\teamg_orcad.dsn")
+      (Path "Design Resources"
+         "h:\documents\git\sequence\orcad\teamg_orcad.dsn"
+         "TEAMG_SEQUENCE-RECOGNITION_SIM")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "h:\documents\git\sequence\orcad\teamg_orcad.dsn"
+         "TEAMG_SEQUENCE-RECOGNITION_SIM" "TEAMG_SEQUENCE-RECOGNITION_SIM"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 651"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 2383 208 898")
+        (Scroll "-408 0")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path "H:\DOCUMENTS\GIT\SEQUENCE\ORCAD\TEAMG_ORCAD.DSN")
+      (Schematic "TEAMG_SEQUENCE-RECOGNITION_SIM")
+      (Page "TEAMG_SEQUENCE-RECOGNITION_SIM")))
+  (MPSSessionName "ja6g14"))

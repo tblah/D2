@@ -1,0 +1,40 @@
+T-Spice - Tanner SPICE
+Version 15.23
+Network license from: flexlm.ecs.soton.ac.uk
+Product Release ID: T-Spice Win64 15.23.20120726.02:35:09
+Copyright © 1988-2012 Tanner EDA
+
+	Parsing "H:\D2ext\LayoutEntry\GeorgeLayout\TEAMG_FULLADDER_SIM.sp"
+	Including "H:\D2ext\LayoutEntry\libraries\layout\amsc35b4.lib"
+	Including "H:\D2ext\LayoutEntry\GeorgeLayout\TEAMG_FULLADDER_NO_TESSELATION.spc"
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : Voltage source Vgnd is connected to itself, and will be ignored
+
+	Opening simulation database "H:\D2ext\LayoutEntry\GeorgeLayout\TEAMG_FULLADDER_SIM.tsim"
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      32
+    MOSFET geometries -      14
+      Voltage sources -       6
+          Subcircuits -       5
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -      16
+       Boundary nodes -       6
+          Total nodes -      22
+*** 1 WARNING MESSAGE GENERATED DURING SETUP
+
+
+
+Parsing                      0.05 seconds
+Setup                        0.02 seconds
+DC operating point           0.01 seconds
+Transient Analysis           1.82 seconds
+Overhead                     0.31 seconds
+-----------------------------------------
+Total                        2.22 seconds
+
+Simulation completed	with  1 Warning

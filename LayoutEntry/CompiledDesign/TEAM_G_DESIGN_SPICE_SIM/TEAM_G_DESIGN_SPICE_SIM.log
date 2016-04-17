@@ -1,0 +1,66 @@
+T-Spice - Tanner SPICE
+Version 15.23
+Network license from: flexlm.ecs.soton.ac.uk
+Product Release ID: T-Spice Win64 15.23.20120726.02:35:09
+Copyright © 1988-2012 Tanner EDA
+
+	Parsing "H:\D2ext\LayoutEntry\CompiledDesign\TEAM_G_DESIGN_SPICE_SIM.sp"
+	Including "H:\D2ext\libraries\layout\amsc35b4.lib"
+	Including "H:\D2ext\LayoutEntry\CompiledDesign\TEAMG_DESIGN.spc"
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+	Opening simulation database "H:\D2ext\LayoutEntry\CompiledDesign\TEAM_G_DESIGN_SPICE_SIM.tsim"
+Warning : Node Q15 is not in this circuit
+Warning : Node A20 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A21 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A22 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A23 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A15 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A19 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A16 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A17 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A18 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A12 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A14 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A13 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A3 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A4 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A5 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A6 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A7 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A8 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A9 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A10 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A11 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A1 is only attached to FET gate terminals; voltage is undefined
+Warning : Node A2 is only attached to FET gate terminals; voltage is undefined
+
+General options:
+        threads = 8
+
+Output options:
+         maxmsg = 0
+
+ Device and node counts:
+              MOSFETs -    1618
+    MOSFET geometries -      66
+      Voltage sources -       3
+          Subcircuits -     337
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -     838
+       Boundary nodes -       4
+          Total nodes -     842
+*** 24 WARNING MESSAGES GENERATED DURING SETUP
+
+
+
+Parsing                      0.06 seconds
+Setup                        0.23 seconds
+DC operating point           0.54 seconds
+Transient Analysis          32.10 seconds
+Overhead                     1.03 seconds
+-----------------------------------------
+Total                       33.97 seconds
+
+Simulation completed	with  24 Warnings

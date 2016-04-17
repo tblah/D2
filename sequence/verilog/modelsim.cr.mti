@@ -1,0 +1,10 @@
+H:/D2/sequence/verilog/SequenceRecogniser.sv {2 {vlog -work work -vopt -sv -stats=none H:/D2/sequence/verilog/SequenceRecogniser.sv
+Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module SequenceRecogniser
+** Warning: H:/D2/sequence/verilog/SequenceRecogniser.sv(25): (vlog-2182) 'nextState' might be read before written in always_comb or always @* block.
+
+
+Top level modules:
+	SequenceRecogniser
+
+} {} {}}

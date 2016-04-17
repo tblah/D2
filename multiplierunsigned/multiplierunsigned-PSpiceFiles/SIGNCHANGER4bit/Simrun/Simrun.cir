@@ -1,0 +1,19 @@
+** Profile: "SIGNCHANGER4bit-Simrun"  [ H:\D2\multiplier\multiplier-PSpiceFiles\SIGNCHANGER4bit\Simrun.sim ] 
+
+** Creating circuit file "Simrun.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of d:\Users\gpeh1g14\AppData\Local\Temp\54\16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SIGNCHANGER4bit.net" 
+
+
+.END

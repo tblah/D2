@@ -1,0 +1,34 @@
+* source RINGOSCILLATOR
+X_oscill_U12         GND oscill_N05983 VDD TIE1_H 
+X_oscill_U9         oscill_N05399 oscill_N02408 GND oscill_N05522 oscill_N02408
++  oscill_N05983 VDD DFC1_H 
+X_oscill_U18         N00042 oscill_N03216 GND oscill_N05375 VDD NAND21_H 
+X_oscill_U27         oscill_N05375 GND oscill_N05382 VDD INV1_H 
+X_oscill_U28         oscill_N05382 GND oscill_N05386 VDD INV1_H 
+X_oscill_U30         oscill_N05390 GND oscill_N05041 VDD INV1_H 
+X_oscill_U29         oscill_N05386 GND oscill_N05390 VDD INV1_H 
+X_oscill_U31         oscill_N05041 GND oscill_N05399 VDD INV1_H 
+X_oscill_U35         oscill_N05419 GND oscill_N05423 VDD INV1_H 
+X_oscill_U32         oscill_N05399 GND oscill_N05411 VDD INV1_H 
+X_oscill_U33         oscill_N05411 GND oscill_N05415 VDD INV1_H 
+X_oscill_U36         oscill_N05423 GND oscill_N03216 VDD INV1_H 
+X_oscill_U34         oscill_N05415 GND oscill_N05419 VDD INV1_H 
+X_oscill_U37         oscill_N05522 oscill_N05534 GND oscill_N05720
++  oscill_N05534 oscill_N05983 VDD DFC1_H 
+X_oscill_U38         oscill_N05720 oscill_N05728 GND oscill_N05791
++  oscill_N05728 oscill_N05983 VDD DFC1_H 
+X_oscill_U39         oscill_N05791 oscill_N05799 GND oscill_N05862
++  oscill_N05799 oscill_N05983 VDD DFC1_H 
+X_oscill_U40         oscill_N05862 oscill_N05870 GND oscill_N05933
++  oscill_N05870 oscill_N05983 VDD DFC1_H 
+X_oscill_U41         oscill_N05933 oscill_N05941 GND N00046 oscill_N05941
++  oscill_N05983 VDD DFC1_H 
+U_Stim         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00042 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 10ns 1  
+V_V1         VDD 0 3.3Vdc
+V_V2         GND 0 0Vdc

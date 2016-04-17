@@ -1,0 +1,37 @@
+T-Spice - Tanner SPICE
+Version 15.23
+Network license from: flexlm.ecs.soton.ac.uk
+Product Release ID: T-Spice Win64 15.23.20120726.02:35:09
+Copyright © 1988-2012 Tanner EDA
+
+	Parsing "H:\D2\repo\D2\LayoutEntry\Clotty\SUBTRACTOR_SPICESIM.sp"
+	Including "H:\D2\repo\D2\libraries\layout\amsc35b4.lib"
+	Including "H:\D2\repo\D2\LayoutEntry\Clotty\TEAMG_FULLSUBTRACTOR_BLOCK.spc"
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+	Opening simulation database "H:\D2\repo\D2\LayoutEntry\Clotty\SUBTRACTOR_SPICESIM.tsim"
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     184
+    MOSFET geometries -      16
+      Voltage sources -      12
+          Subcircuits -      44
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -      92
+       Boundary nodes -      13
+          Total nodes -     105
+
+
+Parsing                      0.03 seconds
+Setup                        0.03 seconds
+DC operating point           0.06 seconds
+Transient Analysis           1.59 seconds
+Overhead                     0.21 seconds
+-----------------------------------------
+Total                        1.92 seconds
+
+Simulation completed

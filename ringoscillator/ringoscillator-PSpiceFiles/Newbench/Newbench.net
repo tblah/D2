@@ -1,0 +1,46 @@
+* source RINGOSCILLATOR
+U_Stim         STIM(1,1)
++ $G_DPWR $G_DGND
++ N02587 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 10ns 1  
+V_V2         GND 0 0Vdc
+X_oscill_U37         oscill_N05522 oscill_N05534 GND oscill_N05720
++  oscill_N05534 oscill_N05983 VDD DFC1_H 
+X_oscill_U29         oscill_N05386 GND oscill_N050011 VDD INV1_H 
+X_oscill_U31         oscill_N05041 GND oscill_N05403 VDD INV1_H 
+X_oscill_U38         oscill_N05720 oscill_N05728 GND oscill_N05791
++  oscill_N05728 oscill_N05983 VDD DFC1_H 
+X_oscill_U12         GND oscill_N05983 VDD TIE1_H 
+X_oscill_U32         oscill_N05403 GND oscill_N050891 VDD INV1_H 
+X_oscill_U9         oscill_N05403 oscill_N02408 GND oscill_N05522 oscill_N02408
++  oscill_N05983 VDD DFC1_H 
+X_oscill_U39         oscill_N05791 oscill_N05799 GND oscill_N05862
++  oscill_N05799 oscill_N05983 VDD DFC1_H 
+X_oscill_U28         oscill_N049730 GND oscill_N05386 VDD INV1_H 
+X_oscill_U40         oscill_N05862 oscill_N05870 GND oscill_N05933
++  oscill_N05870 oscill_N05983 VDD DFC1_H 
+X_oscill_U30         oscill_N050011 GND oscill_N05041 VDD INV1_H 
+X_oscill_U41         oscill_N05933 oscill_N05941 GND N02593 oscill_N05941
++  oscill_N05983 VDD DFC1_H 
+X_oscill_U33         oscill_N050891 GND oscill_N051151 VDD INV1_H 
+X_oscill_U44         N02587 oscill_N03216 GND oscill_N08110 VDD NAND21_H 
+X_oscill_U49         oscill_N103651 GND oscill_N103871 VDD INV1_H 
+X_oscill_U48         oscill_N051151 GND oscill_N103651 VDD INV1_H 
+X_oscill_U50         oscill_N103871 GND oscill_N110811 VDD INV1_H 
+X_oscill_U51         oscill_N110811 GND oscill_N111051 VDD INV1_H 
+X_oscill_U52         oscill_N122200 GND oscill_N049730 VDD INV1_H 
+X_oscill_U53         oscill_N122440 GND oscill_N122200 VDD INV1_H 
+X_oscill_U56         oscill_N123120 GND oscill_N122900 VDD INV1_H 
+X_oscill_U55         oscill_N122900 GND oscill_N122680 VDD INV1_H 
+X_oscill_U54         oscill_N122680 GND oscill_N122440 VDD INV1_H 
+X_oscill_U57         oscill_N123400 GND oscill_N123120 VDD INV1_H 
+X_oscill_U58         oscill_N08110 GND oscill_N123400 VDD INV1_H 
+X_oscill_U62         oscill_N127021 GND oscill_N127241 VDD INV1_H 
+X_oscill_U61         oscill_N126801 GND oscill_N127021 VDD INV1_H 
+X_oscill_U59         oscill_N111051 GND oscill_N126581 VDD INV1_H 
+X_oscill_U60         oscill_N126581 GND oscill_N126801 VDD INV1_H 
+X_oscill_U63         oscill_N127241 GND oscill_N03216 VDD INV1_H 
+V_V1         VDD 0 3.3Vdc

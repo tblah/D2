@@ -1,0 +1,439 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/mentorgraphics/examples
+T_opt
+!s110 1444212722
+VmNG>QDD8[hZP7P3PlYW1_1
+04 18 4 work HalfSubtractorTest fast 0
+=1-54bef7668d02-5614eff1-244-23bc
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1444214949
+Vb3o9Co8RZ9`^_zSG4>jKT0
+04 18 4 work FullSubtractorTest fast 0
+=1-54bef7668d02-5614f8a4-28e-155c
+R1
+n@_opt1
+R2
+R0
+vBUF4_H
+Z3 !s110 1444233439
+!i10b 1
+!s100 X7U><KjRhDAWIn11a6T]91
+IP?<M>5R8_kbdaHJ0QaYG:1
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dH:/D2/verilog/subtractor
+Z6 w1429192793
+Z7 8H:/D2/verilog/d2lib.v
+Z8 FH:/D2/verilog/d2lib.v
+L0 28
+Z9 OL;L;10.3c;59
+r1
+!s85 0
+31
+Z10 !s108 1444233439.219000
+Z11 !s107 H:/D2/verilog/d2lib.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/D2/verilog/d2lib.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@b@u@f4_@h
+vDFC1_H
+R3
+!i10b 1
+!s100 RA<Klo^hA<RXX`KhX7U5`1
+I4lWO1gz_`U]Lb[<W6Jdi`2
+R4
+R5
+R6
+R7
+R8
+L0 129
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@d@f@c1_@h
+vFullSubtractor
+Z14 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R3
+!i10b 1
+!s100 7W:M5N[:l]3Z6K>5`dCKF1
+IIJH`QJMonJBhKjIW9e<E40
+R4
+!s105 FullSubtractor_sv_unit
+S1
+R5
+w1444214938
+8H:/D2/verilog/subtractor/FullSubtractor.sv
+FH:/D2/verilog/subtractor/FullSubtractor.sv
+L0 5
+R9
+r1
+!s85 0
+31
+!s108 1444233439.520000
+!s107 H:/D2/verilog/subtractor/FullSubtractor.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/verilog/subtractor/FullSubtractor.sv|
+!i113 0
+Z15 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@full@subtractor
+vFullSubtractorTest
+R14
+R3
+!i10b 1
+!s100 XAQY;KMgI`5`WCk>KT]=63
+I5hlN=lIRGfLUk:EiBWj733
+R4
+!s105 FullSubtractorTest_sv_unit
+S1
+R5
+w1444214833
+8H:/D2/verilog/subtractor/FullSubtractorTest.sv
+FH:/D2/verilog/subtractor/FullSubtractorTest.sv
+L0 7
+R9
+r1
+!s85 0
+31
+!s108 1444233439.718000
+!s107 H:/D2/verilog/subtractor/FullSubtractorTest.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/verilog/subtractor/FullSubtractorTest.sv|
+!i113 0
+R15
+n@full@subtractor@test
+vHalfSubtractor
+R14
+!s110 1444233438
+!i10b 1
+!s100 ni[MCRAVIQC7igKM_jOQ`3
+I1[iH[oH[KBcZ3aUUeF9En2
+R4
+!s105 HalfSubtractor_sv_unit
+S1
+R5
+w1444210921
+8H:/D2/verilog/subtractor/HalfSubtractor.sv
+FH:/D2/verilog/subtractor/HalfSubtractor.sv
+L0 5
+R9
+r1
+!s85 0
+31
+!s108 1444233438.714000
+!s107 H:/D2/verilog/subtractor/HalfSubtractor.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/verilog/subtractor/HalfSubtractor.sv|
+!i113 0
+R15
+n@half@subtractor
+vHalfSubtractorTest
+R14
+R3
+!i10b 1
+!s100 U09>3`oE0>[S`d?h=bg^]3
+IY]jAb3dbhJGN=lZ6z4D3n0
+R4
+!s105 HalfSubtractorTest_sv_unit
+S1
+R5
+w1444212702
+8H:/D2/verilog/subtractor/HalfSubtractorTest.sv
+FH:/D2/verilog/subtractor/HalfSubtractorTest.sv
+L0 7
+R9
+r1
+!s85 0
+31
+!s108 1444233438.991000
+!s107 H:/D2/verilog/subtractor/HalfSubtractorTest.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/verilog/subtractor/HalfSubtractorTest.sv|
+!i113 0
+R15
+n@half@subtractor@test
+vINV10_H
+R3
+!i10b 1
+!s100 mN:W^OW<;?i9EiRODi1Ze2
+I:`_>T13hCcmIA1G37djZ@0
+R4
+R5
+R6
+R7
+R8
+L0 20
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@i@n@v10_@h
+vINV1_H
+R3
+!i10b 1
+!s100 NHakgeL2>UkoX56a3D_3m1
+ISncFoWMZ6G;Jl5h8<`AQS3
+R4
+R5
+R6
+R7
+R8
+L0 12
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@i@n@v1_@h
+vMUX21_H
+R3
+!i10b 1
+!s100 NO]bcZ>BKZ8d9UaL:eF[O1
+IJz1[XA_]km_K`R?oPk9N`2
+R4
+R5
+R6
+R7
+R8
+L0 155
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@m@u@x21_@h
+vNAND21_H
+R3
+!i10b 1
+!s100 8OR`5OG5V>R[iRGQP4Jm:1
+Ic]9<Kk<__R5E8@nhCmbkF3
+R4
+R5
+R6
+R7
+R8
+L0 68
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@n@a@n@d21_@h
+vNAND31_H
+R3
+!i10b 1
+!s100 V_2aCdA3Pm;4H;^=Q`P1l1
+IgL9L3o6c6[bzdcLh`>7KM3
+R4
+R5
+R6
+R7
+R8
+L0 77
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@n@a@n@d31_@h
+vNAND41_H
+R3
+!i10b 1
+!s100 B7UFCAdXQh=e9naJTa23J1
+Ie4<LChCdAI][abI_3FZ5J2
+R4
+R5
+R6
+R7
+R8
+L0 87
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@n@a@n@d41_@h
+vNOR21_H
+R3
+!i10b 1
+!s100 ^V9W5fDRXFLh?[7lMIA772
+I?[^;dA@T0Bl6aHDOOmNG;3
+R4
+R5
+R6
+R7
+R8
+L0 98
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@n@o@r21_@h
+vNOR31_H
+R3
+!i10b 1
+!s100 lGVI2F3R72gemie?PD;Gh2
+I[TVGoB@1MGN`z[kPU5H6W3
+R4
+R5
+R6
+R7
+R8
+L0 107
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@n@o@r31_@h
+vNOR41_H
+R3
+!i10b 1
+!s100 6]8PYIiee6P?cQUimkjMA3
+IWFcCLKoRKjFSV66??mPWb0
+R4
+R5
+R6
+R7
+R8
+L0 118
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@n@o@r41_@h
+vTIE0_H
+R3
+!i10b 1
+!s100 DC_cYPmf<1Czm7VCaVH=Q0
+INH:A]ajmCFcE2knR5Q_=z1
+R4
+R5
+R6
+R7
+R8
+L0 36
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@t@i@e0_@h
+vTIE1_H
+R3
+!i10b 1
+!s100 JnM4_;T1KT=]4NHh3dPWE0
+I?FQKgOcG_A7?^_BCWbkB<0
+R4
+R5
+R6
+R7
+R8
+L0 43
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@t@i@e1_@h
+vXNR21_H
+R3
+!i10b 1
+!s100 Dj8Ucg@3iW_6m[>]GQZV;1
+IY4bQ_CFORck6O:;Y]N8WN3
+R4
+R5
+R6
+R7
+R8
+L0 50
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@x@n@r21_@h
+vXOR21_H
+R3
+!i10b 1
+!s100 <BE7CTBISW0V:_fo0MRN[2
+INFh_1IFPdboH<6DF3J`Cl1
+R4
+R5
+R6
+R7
+R8
+L0 59
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+n@x@o@r21_@h

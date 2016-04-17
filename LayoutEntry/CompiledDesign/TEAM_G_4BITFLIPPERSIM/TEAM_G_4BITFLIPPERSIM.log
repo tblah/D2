@@ -1,0 +1,48 @@
+T-Spice - Tanner SPICE
+Version 15.23
+Network license from: flexlm.ecs.soton.ac.uk
+Product Release ID: T-Spice Win64 15.23.20120726.02:35:09
+Copyright © 1988-2012 Tanner EDA
+
+	Parsing "H:\D2ext\LayoutEntry\CompiledDesign\TEAM_G_4BITFLIPPERSIM.sp"
+	Including "H:\D2ext\LayoutEntry\libraries\layout\amsc35b4.lib"
+	Including "H:\D2ext\LayoutEntry\CompiledDesign\TEAMG_SIGNCHANGER_4_BIT_LINE_BOTTOMOUT.spc"
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+Warning : Voltage source Vgnd is connected to itself, and will be ignored
+
+	Opening simulation database "H:\D2ext\LayoutEntry\CompiledDesign\TEAM_G_4BITFLIPPERSIM.tsim"
+Warning : Node S is only attached to FET gate terminals; voltage is undefined
+Warning : Power supply node FLIP is singularly attached to VFLIP, and will be terminated with a Gmin conductance
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     114
+    MOSFET geometries -      28
+      Voltage sources -       8
+          Subcircuits -      21
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -      62
+       Boundary nodes -       8
+          Total nodes -      70
+*** 3 WARNING MESSAGES GENERATED DURING SETUP
+
+Warning : Newton solver has failed due to extremely large node voltages.
+        : If the circuit has very high gain and extremely large voltages (>1000V) are expected,
+        : then you may use '.option vmax=0' to disable this check.
+Conventional DC operating point computation failed.
+Gmin stepping succeeded
+Final gmin value = 1e-012, dcstep = 0
+
+
+Parsing                      0.03 seconds
+Setup                        0.02 seconds
+DC operating point           0.19 seconds
+Transient Analysis           7.02 seconds
+Overhead                     0.36 seconds
+-----------------------------------------
+Total                        7.62 seconds
+
+Simulation completed	with  4 Warnings

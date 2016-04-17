@@ -1,0 +1,464 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("STIM1")
+        ("VDC")
+        ("NAND41_H")
+        ("INV1_H")
+        ("NAND21_H")
+        ("NOR21_H")
+        ("NAND31_H")
+        ("DigClock")
+    )
+    ("instances"
+        ("DataIn"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_DataIn")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND10"
+                    ("value"	"82.5n 1")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND5"
+                    ("value"	"32.5n 1")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"22.5n 1")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"12.5n 0")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"2.5n 1")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0n 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("COMMAND9"
+                    ("value"	"72.5n 0")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"62.5n 1")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"52.5n 1")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"42.5n 0")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("COMMAND11"
+                    ("value"	"92.5n 1")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"102.5n 0")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("N_RESET"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_N_RESET")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND3"
+                    ("value"	"2n 1")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"1.25n 0")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0n 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("V1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"3.3Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"-21.77mW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("V2"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U9"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.35pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U21"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U21")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U17"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U17")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"46.60pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U5"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U5")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"43.82pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U16"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U16")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"64.36pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U12"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U12")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.86pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U18"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U18")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U24"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U24")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q1_Logic.U25"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q1_Logic_U25")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q2_Logic.U15"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q2_Logic_U15")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.98pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q2_Logic.U30"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q2_Logic_U30")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q2_Logic.U14"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q2_Logic_U14")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"47.04pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q2_Logic.U29"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q2_Logic_U29")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q2_Logic.U20"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q2_Logic_U20")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"43.82pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q2_Logic.U27"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q2_Logic_U27")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.86pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q0_Logic.U3"
+            ("device_name"	"NAND31_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q0_Logic_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"32.87pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_SEQUENCE-RECOGNITION.Q0_Logic.U10"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_SEQUENCE-RECOGNITION_Q0_Logic_U10")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("DSTM1"
+            ("device_name"	"DigClock")
+            ("pspice_path"	"U_DSTM1")
+            ("level"	"0")
+            ("model_params"
+                ("OFFTIME"
+                    ("value"	"5n")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("ONTIME"
+                    ("value"	"5n")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("DELAY"
+                    ("value"	"")
+                    ("pspice_param"	"DELAY")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+            )
+        )
+    )
+)

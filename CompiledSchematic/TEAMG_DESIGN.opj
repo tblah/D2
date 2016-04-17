@@ -1,0 +1,104 @@
+(ExpressProject "CompiledSchematic"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\teamg_design.dsn"
+      (Type "Schematic Design"))
+    (Netlist_TAB "6")
+    (VERILOG_Part_Value "{Value}")
+    (VERILOG_Netlist_File "TEAMG_DESIGN.V")
+    (VERILOG_View_Output "FALSE")
+    (Verilog_timescale_value_string "1ns/1ps")
+    (Verilog_Net_types "wire")
+    (Verilog_include_power_pins "FALSE")
+    (Verilog_Textcase "2")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\teamg_design.v"
+      (Type "Report"))
+    (File ".\teamg_design-pspicefiles\teamg_design_sim\teamg_design_sim.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\teamg_design-pspicefiles\testbench\simulation.sim"
+        (DisplayName "TESTBENCH-simulation")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\teamg_design-pspicefiles\teamg_design_sim\teamg_design_sim.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\teamg_design-pspicefiles\teamg_design_sim\teamg_design_sim.sim"
+        (DisplayName "TEAMG_DESIGN_SIM-TEAMG_DESIGN_SIM")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\libraries\schematic\d2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\libraries\schematic\d2.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (DigClock
+      (FullPartName "DigClock.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TIE1_H
+      (FullPartName "TIE1_H.Normal")
+      (LibraryName "\\UGSAMBA\GPEH1G14\D2COPY2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (portout
+      (LibraryName "H:\D2COPY2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (portin
+      (LibraryName "H:\D2COPY2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0"))
+    (INV1_H
+      (FullPartName "INV1_H.Normal")
+      (LibraryName "\\UGSAMBA\GPEH1G14\D2COPY2\LIBRARIES\SCHEMATIC\D2_H.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\CompiledSchematic\teamg_design.dsn")
+      (Path "Design Resources"
+         "\\ugsamba\tde1g14\D2\CompiledSchematic\teamg_design.dsn"
+         "TEAMG_DESIGN")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "\\ugsamba\tde1g14\D2\CompiledSchematic\teamg_design.dsn"
+         "TEAMG_DESIGN" "TEAMG_DESIGN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 651"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1321 52 614")
+        (Scroll "-18 0")
+        (Zoom "122")
+        (Occurrence "/TEAMG_DESIGN"))
+      (Path "\\UGSAMBA\TDE1G14\D2\COMPILEDSCHEMATIC\TEAMG_DESIGN.DSN")
+      (Schematic "TEAMG_DESIGN")
+      (Page "TEAMG_DESIGN")))
+  (MPSSessionName "tde1g14")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\pspice")
+  (ISPCBBASICLICENSE "false"))

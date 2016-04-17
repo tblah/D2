@@ -1,0 +1,65 @@
+H:/D2/libraries/verilog/d2lib.v {1 {vlog -work work -vopt -stats=none H:/D2/libraries/verilog/d2lib.v
+Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module INV1_H
+-- Compiling module INV10_H
+-- Compiling module BUF4_H
+-- Compiling module TIE0_H
+-- Compiling module TIE1_H
+-- Compiling module XNR21_H
+-- Compiling module XOR21_H
+-- Compiling module NAND21_H
+-- Compiling module NAND31_H
+-- Compiling module NAND41_H
+-- Compiling module NOR21_H
+-- Compiling module NOR31_H
+-- Compiling module NOR41_H
+-- Compiling module DFC1_H
+-- Compiling module MUX21_H
+
+Top level modules:
+	INV1_H
+	INV10_H
+	BUF4_H
+	TIE0_H
+	TIE1_H
+	XNR21_H
+	XOR21_H
+	NAND21_H
+	NAND31_H
+	NAND41_H
+	NOR21_H
+	NOR31_H
+	NOR41_H
+	DFC1_H
+	MUX21_H
+
+} {} {}} H:/D2/CompiledSchematic/TEAMG_DESIGN.V {1 {vlog -work work -vopt -stats=none H:/D2/CompiledSchematic/TEAMG_DESIGN.V
+Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module alias_vector
+-- Compiling module alias_bit
+-- Compiling module glbl
+-- Compiling module TEAMG_HALFSUBTRACTOR
+-- Compiling module TEAMG_FULLSUBTRACTOR
+-- Compiling module TEAMG_4BIT_SUBTRACTOR
+-- Compiling module TEAMG_RINGOSCILLATOR
+-- Compiling module TEAMG_Q3_LOGIC
+-- Compiling module TEAMG_Q0_LOGIC
+-- Compiling module TEAMG_Q1_LOGIC
+-- Compiling module TEAMG_Q2_LOGIC
+-- Compiling module TEAMG_SEQUENCE_RECOGNITION
+-- Compiling module TEAMG_HALFADDER
+-- Compiling module TEAMG_SIGNCHANGER8BIT
+-- Compiling module TEAMG_AND
+-- Compiling module TEAMG_SIGNCHANGER4BIT
+-- Compiling module TEAMG_FULLADDER
+-- Compiling module TEAMG_MULTIBLOCK
+-- Compiling module TEAMG_MULTIPLIER
+-- Compiling module TEAMG_DESIGN
+-- Compiling module TEAMG_DESIGN_SIM
+
+Top level modules:
+	alias_vector
+	glbl
+	TEAMG_DESIGN_SIM
+
+} {} {}}

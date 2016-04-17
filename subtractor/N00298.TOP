@@ -1,0 +1,41 @@
+(SKIDL
+    (Circuits
+      ("MAIN"
+      (Parts
+	("teamg_orcad@@U1.1" IbisInput
+	 (refDes  "U1")
+	 (Props
+	   (bufferModel  "CDSDefaultInput_2p5v")
+	   (_SXDesignName  "teamg_orcad")
+	 )
+	 (Terms 	  ("teamg_orcadN00298" "1") 
+	 )
+	)
+	("teamg_orcad@@U2.0" IbisInput
+	 (refDes  "U2")
+	 (Props
+	   (bufferModel  "CDSDefaultInput_2p5v")
+	   (_SXDesignName  "teamg_orcad")
+	 )
+	 (Terms 	  ("teamg_orcadN00298" "0") 
+	 )
+	)
+      )
+      (Nodes
+        ("teamg_orcadN00298"
+           (terms  "teamg_orcad@@U1.1.1"  "teamg_orcad@@U2.0.1"           )
+        )
+      )
+      (Constraints
+	("RATSNEST_SCHEDULE"  "MIN_DAISY_CHAIN")
+      )
+      )
+    )
+ (Subckts
+ )
+ (Props
+   (DesUnits "mils 1")
+   (Revision "14.208")
+   (stimulusAdjust "yes")
+ )
+)

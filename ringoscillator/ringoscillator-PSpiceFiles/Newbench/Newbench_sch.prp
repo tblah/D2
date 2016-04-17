@@ -1,0 +1,327 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("STIM1")
+        ("VDC")
+        ("DFC1_H")
+        ("INV1_H")
+        ("TIE1_H")
+    )
+    ("instances"
+        ("Stim"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_Stim")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND2"
+                    ("value"	"10ns 1")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+            )
+        )
+        ("V2"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U37"
+            ("device_name"	"DFC1_H")
+            ("pspice_path"	"X_oscill_U37")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"205.5pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U29"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U29")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U31"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U31")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U38"
+            ("device_name"	"DFC1_H")
+            ("pspice_path"	"X_oscill_U38")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"205.5pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U12"
+            ("device_name"	"TIE1_H")
+            ("pspice_path"	"X_oscill_U12")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U32"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U32")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U9"
+            ("device_name"	"DFC1_H")
+            ("pspice_path"	"X_oscill_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"205.5pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U39"
+            ("device_name"	"DFC1_H")
+            ("pspice_path"	"X_oscill_U39")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"205.5pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U28"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U28")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U40"
+            ("device_name"	"DFC1_H")
+            ("pspice_path"	"X_oscill_U40")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"205.5pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U30"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U30")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U41"
+            ("device_name"	"DFC1_H")
+            ("pspice_path"	"X_oscill_U41")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"205.5pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U33"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U33")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U49"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U49")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U48"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U48")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U50"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U50")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("oscill.U51"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_oscill_U51")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("V1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"3.3Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"-1.562nW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+    )
+)

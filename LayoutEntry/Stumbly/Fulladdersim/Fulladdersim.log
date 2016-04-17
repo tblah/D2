@@ -1,0 +1,24 @@
+T-Spice - Tanner SPICE
+Version 16.25
+Network license from: flexlm.ecs.soton.ac.uk
+Product Release ID: T-Spice Win64 16.25.20150422.04:27:29
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "H:\SecondYear\D2\Git\LayoutEntry\Stumbly\Fulladdersim.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.2\tiburonda\models\VAdatabase.sp"
+	Including "H:\SecondYear\D2\Git\LayoutEntry\Stumbly\amsc35b4.lib"
+	Including "H:\SecondYear\D2\Git\LayoutEntry\Stumbly\FULL_ADDER.spc"
+Fatal Error : "FULL_ADDER.spc" line 60 unknown keyword -> 
+Fatal Error : Error while parsing.   Will attempt to continue.
+Fatal Error : "FULL_ADDER.spc" line 61 unknown keyword -> 
+
+Start of Fulladdersim.sp
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+Parsing                      0.04 seconds
+Setup                        0.03 seconds
+Overhead                     0.55 seconds
+-----------------------------------------
+Total                        0.63 seconds
+
+Simulation failed	with  3 Fatal Errors

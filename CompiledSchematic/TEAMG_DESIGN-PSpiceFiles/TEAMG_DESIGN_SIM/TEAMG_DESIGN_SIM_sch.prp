@@ -1,0 +1,4845 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("VDC")
+        ("NAND21_H")
+        ("INV1_H")
+        ("XOR21_H")
+        ("NOR21_H")
+        ("TIE0_H")
+        ("MUX21_H")
+        ("NAND41_H")
+        ("NAND31_H")
+        ("STIM1")
+        ("DigClock")
+    )
+    ("instances"
+        ("V2"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("V1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"3.3Vdc")
+                    ("pspice_param"	"DC")
+                )
+                ("BiasValue Power"
+                    ("value"	"-21.77mW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.22pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.22pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.03pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.FULLADDER0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_FULLADDER0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.03pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.FULLADDER0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_FULLADDER0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.U6"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_U6")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND3.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"48.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER1.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER1_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"48.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"48.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND0.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.U4"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"48.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.U1"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.FULLADDER0.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_FULLADDER0_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND2.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.MULTIBLOCK2.AND2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_MULTIBLOCK2_AND2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER2.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.03pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.U9"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER3.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER3_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER3.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER3_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERY.HALFADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERY_HALFADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER2.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER2.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.U9"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER3.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER3_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER3.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER3_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPPERX.HALFADDER1.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPPERX_HALFADDER1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.U5"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_U5")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND1.U1"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.AND1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_AND1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.U7"
+            ("device_name"	"TIE0_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_U7")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"3.035e-27W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT0.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT0_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT0.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT0_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT0.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT0_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT0.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT0_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"62.67pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT1.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT1_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT1.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT1_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT1.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT1_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.02pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT1.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"61.97pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT2.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT2.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT2_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT2.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT2_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT2.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT2_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT2.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"62.67pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT3.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT3.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT3_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT3.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT3_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT3.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT3_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT3.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"62.67pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT5.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT5_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT5.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT5_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT5.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT5_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT5.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT5_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT5.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT5_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"62.67pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT4.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT4_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT4.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT4_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT4.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT4_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT4.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT4_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT4.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT4_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"62.67pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT7.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT7_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT7.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT7_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT7.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT7_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT7.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT7_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"69.03pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT7.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT7_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"61.97pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT6.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT6_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT6.HALFADDER0.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT6_HALFADDER0_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT6.HALFADDER0.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT6_HALFADDER0_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT6.HALFADDER0.U3"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT6_HALFADDER0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_MULTIPLIERCELL.FLIPBIT6.U1"
+            ("device_name"	"MUX21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_MULTIPLIERCELL_FLIPBIT6_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"62.67pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q2_LOGIC.U30"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q2_LOGIC_U30")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q2_LOGIC.U20"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q2_LOGIC_U20")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"43.82pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q2_LOGIC.U15"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q2_LOGIC_U15")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.98pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q2_LOGIC.U29"
+            ("device_name"	"NOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q2_LOGIC_U29")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"22.79pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q2_LOGIC.U14"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q2_LOGIC_U14")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"47.04pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q2_LOGIC.U27"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q2_LOGIC_U27")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.86pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U9"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U9")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.35pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U18"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U18")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U16"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U16")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"64.36pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U17"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U17")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"46.60pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U24"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U24")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"21.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U25"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U25")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U12"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U12")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.86pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U5"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U5")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"43.82pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q1_LOGIC.U21"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q1_LOGIC_U21")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q0_LOGIC.U3"
+            ("device_name"	"NAND31_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q0_LOGIC_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"32.87pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SEQUENCE_RECOGNISER.Q0_LOGIC.U10"
+            ("device_name"	"NAND41_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SEQUENCE_RECOGNISER_Q0_LOGIC_U10")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.54pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U31"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U31")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U51"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U51")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U49"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U49")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U32"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U32")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U50"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U50")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U48"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U48")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U33"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U33")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U30"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U30")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U29"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U29")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_RINGOSCILLATORCELL.U28"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_RINGOSCILLATORCELL_U28")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR3.TEAMG_HALFSUBTRACTOR0.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR3_TEAMG_HALFSUBTRACTOR0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR3.TEAMG_HALFSUBTRACTOR1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR3_TEAMG_HALFSUBTRACTOR1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR3.TEAMG_HALFSUBTRACTOR1.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR3_TEAMG_HALFSUBTRACTOR1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR3.TEAMG_HALFSUBTRACTOR1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR3_TEAMG_HALFSUBTRACTOR1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.22pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR3.TEAMG_HALFSUBTRACTOR1.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR3_TEAMG_HALFSUBTRACTOR1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR3.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR.TEAMG_HALFSUBTRACTOR0.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR_TEAMG_HALFSUBTRACTOR0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR.TEAMG_HALFSUBTRACTOR1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR_TEAMG_HALFSUBTRACTOR1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR.TEAMG_HALFSUBTRACTOR1.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR_TEAMG_HALFSUBTRACTOR1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR2.TEAMG_HALFSUBTRACTOR0.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR2_TEAMG_HALFSUBTRACTOR0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR2.TEAMG_HALFSUBTRACTOR1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR2_TEAMG_HALFSUBTRACTOR1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR2.TEAMG_HALFSUBTRACTOR1.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR2_TEAMG_HALFSUBTRACTOR1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR2.TEAMG_HALFSUBTRACTOR1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR2_TEAMG_HALFSUBTRACTOR1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.18pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR2.TEAMG_HALFSUBTRACTOR1.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR2_TEAMG_HALFSUBTRACTOR1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.91pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR2.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR1.TEAMG_HALFSUBTRACTOR0.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR1_TEAMG_HALFSUBTRACTOR0_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR1.TEAMG_HALFSUBTRACTOR1.U2"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR1_TEAMG_HALFSUBTRACTOR1_U2")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"11.40pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR1.TEAMG_HALFSUBTRACTOR1.U3"
+            ("device_name"	"INV1_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR1_TEAMG_HALFSUBTRACTOR1_U3")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.96pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR1.TEAMG_HALFSUBTRACTOR1.U4"
+            ("device_name"	"NAND21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR1_TEAMG_HALFSUBTRACTOR1_U4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"29.21pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR1.TEAMG_HALFSUBTRACTOR1.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR1_TEAMG_HALFSUBTRACTOR1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("TEAMG_DESIGN.TEAMG_SUBTRACTORCELL.FULL_SUBTRACTOR1.U1"
+            ("device_name"	"XOR21_H")
+            ("pspice_path"	"X_TEAMG_DESIGN_TEAMG_SUBTRACTORCELL_FULL_SUBTRACTOR1_U1")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"33.66pW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("INV_I"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_INV_I")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("RING_EN"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_RING_EN")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0n 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"100n 1")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_Y0"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_Y0")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_Y1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_Y1")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_Y2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_Y2")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_Y3"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_Y3")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_X0"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_X0")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_X1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_X1")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_X2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_X2")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_X3"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_X3")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("MULTI_IS"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_MULTI_IS")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_Y3"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_Y3")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_Y2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_Y2")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_Y1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_Y1")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_Y0"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_Y0")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_X3"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_X3")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_X2"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_X2")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_X0"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_X0")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_X1"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_X1")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SUB_BI"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SUB_BI")
+            ("level"	"0")
+            ("model_params"
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND1"
+                    ("value"	"0s 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("RING_NR"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_RING_NR")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("DIG_GND"
+                    ("value"	"$G_DGND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"$G_DPWR")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND3"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND2"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SEQ_CLK"
+            ("device_name"	"DigClock")
+            ("pspice_path"	"U_SEQ_CLK")
+            ("level"	"0")
+            ("model_params"
+                ("OFFTIME"
+                    ("value"	"5nS")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("ONTIME"
+                    ("value"	"5nS")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("DELAY"
+                    ("value"	"")
+                    ("pspice_param"	"DELAY")
+                )
+            )
+        )
+        ("SEQ_DI"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SEQ_DI")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND6"
+                    ("value"	"42.5n 0")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND7"
+                    ("value"	"52.5n 1")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND8"
+                    ("value"	"62.5n 1")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND9"
+                    ("value"	"72.5n 0")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND10"
+                    ("value"	"82.5n 1")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND11"
+                    ("value"	"92.5n 1")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND2"
+                    ("value"	"2.5n 1")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"12.5n 0")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("COMMAND4"
+                    ("value"	"22.5n 1")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("COMMAND5"
+                    ("value"	"32.5n 1")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND12"
+                    ("value"	"102.5n 0")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND1"
+                    ("value"	"0n 0")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+        ("SEQ_NR"
+            ("device_name"	"STIM1")
+            ("pspice_path"	"U_SEQ_NR")
+            ("level"	"0")
+            ("model_params"
+                ("COMMAND1"
+                    ("value"	"0s 1")
+                    ("pspice_param"	"COMMAND1")
+                )
+                ("COMMAND2"
+                    ("value"	"1.25n 0")
+                    ("pspice_param"	"COMMAND2")
+                )
+                ("COMMAND3"
+                    ("value"	"2n 1")
+                    ("pspice_param"	"COMMAND3")
+                )
+                ("DIG_GND"
+                    ("value"	"GND")
+                    ("pspice_param"	"DIG_GND")
+                )
+                ("DIG_PWR"
+                    ("value"	"VDD")
+                    ("pspice_param"	"DIG_PWR")
+                )
+                ("FORMAT"
+                    ("value"	"1")
+                    ("pspice_param"	"FORMAT")
+                )
+                ("WIDTH"
+                    ("value"	"1")
+                    ("pspice_param"	"WIDTH")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("COMMAND16"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND16")
+                )
+                ("COMMAND15"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND15")
+                )
+                ("COMMAND14"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND14")
+                )
+                ("COMMAND13"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND13")
+                )
+                ("COMMAND12"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND12")
+                )
+                ("COMMAND11"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND11")
+                )
+                ("COMMAND10"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND10")
+                )
+                ("COMMAND9"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND9")
+                )
+                ("COMMAND8"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND8")
+                )
+                ("COMMAND7"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND7")
+                )
+                ("COMMAND6"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND6")
+                )
+                ("COMMAND5"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND5")
+                )
+                ("COMMAND4"
+                    ("value"	"")
+                    ("pspice_param"	"COMMAND4")
+                )
+                ("TIMESTEP"
+                    ("value"	"")
+                    ("pspice_param"	"TIMESTEP")
+                )
+            )
+        )
+    )
+)
