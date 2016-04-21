@@ -90,8 +90,6 @@ def testSigned( delay ):
 
 def main():
     delay = 1E-2 # seconds
-    numFails = testUnsigned(delay)
-    numFails += testSigned(delay)
 
     # set up pins
     wiringpi.wiringPiSetup()
@@ -103,6 +101,9 @@ def main():
         wiringpi.pinMode( pin, 0 )
     wiringpi.pinMode( isSignedPin, 1 )
     wiringpi.pinMode( isSupportedPin, 0 )
+    
+    numFails = testUnsigned(delay)
+    numFails += testSigned(delay)
 
     # magic for coloured printing from https://pythonadventures.wordpress.com/2011/03/16/print-colored-text-in-terminal/
     colorred = "\033[01;31m{0}\033[00m"
